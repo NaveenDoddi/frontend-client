@@ -2,13 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Carousel } from 'react-bootstrap';
 
 function LandVedio() {
-
-      // const videos = [
-      //       { src: "/videos/India-360-v1.mp4", interval: 73000 }, // 1 min 13 sec
-      //       { src: "/videos/video.mp4", interval: 25000 }, // 25 sec
-      //       { src: "/videos/vediolanding.mp4", interval: 16000 } // 16 sec
-      // ];
-
       const videos = [
             { src: "/videos/India-360-v1.mp4", label: "India 360" },
             { src: "/videos/India-360-v1.mp4", label: "Nature" },
@@ -35,7 +28,7 @@ function LandVedio() {
                   currentVideo.addEventListener("ended", onEnded);
                   return () => currentVideo.removeEventListener("ended", onEnded);
             }
-      }, [index]);
+      }, [index, videos.length]);
 
 
       return (

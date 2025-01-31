@@ -32,7 +32,7 @@ function LeafletMap(props) {
 
                   
             return () => map.remove();
-      }, [props.latitude, props.longitute, props.description]); // Dependencies for re-rendering
+      }, [props.latitude, props.longitute, props.description, props.imageUrl, props.name, props.state]); // Dependencies for re-rendering
 
       return (
             <div id="map"></div>

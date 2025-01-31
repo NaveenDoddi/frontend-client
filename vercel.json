@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
       "routes": [
             {
                   "src": "/[^.]+",
@@ -7,3 +8,13 @@
             }
       ]
 }
+=======
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/index.html",
+      "status": 200
+    }
+  ]
+}
+>>>>>>> bbbbe74c6b842fd0bf214eec83f08b8eb6998cf2

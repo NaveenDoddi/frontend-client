@@ -1,26 +1,9 @@
 {
-      "version": 2,
-      "builds": [
-            {
-                  "src": "package.json",
-                  "use": "@vercel/static-build"
-            }
-      ],
-      "rewrites": [
-            {
-                  "source": "/(.*)",
-                  "destination": "/index.html"
-            }
-      ],
-      "headers": [
-            {
-                  "source": "/manifest.json",
-                  "headers": [
-                        {
-                              "key": "Cache-Control",
-                              "value": "no-cache"
-                        }
-                  ]
-            }
-      ]
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/index.html",
+      "status": 200
+    }
+  ]
 }

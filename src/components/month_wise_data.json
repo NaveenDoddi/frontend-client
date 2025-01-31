@@ -1,0 +1,1806 @@
+[
+      {
+            "name": "Jaipur",
+            "state": "Rajasthan",
+            "best_month": "January",
+            "coordinates": {
+                  "latitude": 26.9124,
+                  "longitude": 75.7873
+            },
+            "highlights": [
+                  "Amber Fort",
+                  "Hawa Mahal",
+                  "City Palace",
+                  "Jantar Mantar",
+                  "Jal Mahal"
+            ],
+            "activities": [
+                  "Fort exploration",
+                  "Shopping at bazaars",
+                  "Cultural shows",
+                  "Elephant rides",
+                  "Street food tasting"
+            ],
+            "temperature": "10-25°C",
+            "description": "The Pink City of India, Jaipur, is known for its magnificent palaces, vibrant culture, history.",
+            "nearest_airport": "Jaipur International Airport",
+            "popular_events": [
+                  "Jaipur Literature Festival",
+                  "Makar Sankranti Festival"
+            ],
+            "image": "https://assets.cntraveller.in/photos/621489890fb9c3937ea2ebcb/3:2/w_1620,h_1080,c_limit/jaipur%20lead.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Shopping"
+            ]
+      },
+      {
+            "name": "Auli",
+            "state": "Uttarakhand",
+            "best_month": "January",
+            "coordinates": {
+                  "latitude": 30.5289,
+                  "longitude": 79.5645
+            },
+            "highlights": [
+                  "Skiing slopes",
+                  "Cable car rides",
+                  "Snow-covered peaks"
+            ],
+            "activities": [
+                  "Skiing",
+                  "Trekking",
+                  "Photography"
+            ],
+            "temperature": "-4 to 7°C",
+            "description": "Auli is a premier skiing destination offering stunning views of the Himalayas.",
+            "nearest_airport": "Dehradun Airport",
+            "popular_events": [
+                  "Auli Skiing Festival"
+            ],
+            "image": "https://trekalone.com/wp-content/uploads/2021/05/auli-skiing.jpg",
+            "category": [
+                  "Adventure",
+                  "Trekking",
+                  "Snow Sports"
+            ]
+      },
+      {
+            "name": "Rann of Kutch",
+            "state": "Gujarat",
+            "best_month": "January",
+            "coordinates": {
+                  "latitude": 23.7333,
+                  "longitude": 68.8333
+            },
+            "highlights": [
+                  "White salt desert",
+                  "Rann Utsav",
+                  "Cultural performances"
+            ],
+            "activities": [
+                  "Camel rides",
+                  "Photography",
+                  "Camping"
+            ],
+            "temperature": "12-25°C",
+            "description": "The Rann of Kutch transforms into a cultural wonderland during the Rann Utsav.",
+            "nearest_airport": "Bhuj Airport",
+            "popular_events": [
+                  "Rann Utsav"
+            ],
+            "image": "https://www.gujarattourism.com/content/dam/gujrattourism/images/weekend-get-aways/great-rann-of-kutch/gallery/Great%20Rann%20Of%20Kutch%20(14).jpg",
+            "category": [
+                  "Photography",
+                  "Culture",
+                  "Camping"
+            ]
+      },
+      {
+            "name": "Gulmarg",
+            "state": "Jammu & Kashmir",
+            "best_month": "January",
+            "coordinates": {
+                  "latitude": 34.0484,
+                  "longitude": 74.3800
+            },
+            "highlights": [
+                  "Skiing destinations",
+                  "Snow-covered meadows",
+                  "Gondola rides"
+            ],
+            "activities": [
+                  "Skiing",
+                  "Snowboarding",
+                  "Trekking"
+            ],
+            "temperature": "-4 to 10°C",
+            "description": "Gulmarg is a paradise for snow lovers, offering world-class skiing facilities.",
+            "nearest_airport": "Srinagar Airport",
+            "popular_events": [
+                  "Winter Sports Festival"
+            ],
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1a/2b/ed/gulmarg.jpg?w=1400&h=1400&s=1",
+            "category": [
+                  "Snow Sports",
+                  "Adventure",
+                  "Trekking"
+            ]
+      },
+      {
+            "name": "Khajuraho",
+            "state": "Madhya Pradesh",
+            "best_month": "January",
+            "coordinates": {
+                  "latitude": 24.8318,
+                  "longitude": 79.9199
+            },
+            "highlights": [
+                  "Erotic temples",
+                  "UNESCO Heritage Site",
+                  "Light and sound show"
+            ],
+            "activities": [
+                  "Temple tours",
+                  "Photography",
+                  "Cultural shows"
+            ],
+            "temperature": "9-25°C",
+            "description": "Khajuraho is famous for its exquisite temples adorned with intricate carvings.",
+            "nearest_airport": "Khajuraho Airport",
+            "popular_events": [
+                  "Khajuraho Dance Festival"
+            ],
+            "image": "https://www.travelclix.in/wp-content/uploads/2020/04/templae-wall-architecture-1-khajuraho-travelShot-867x650.jpg",
+            "category": [
+                  "History",
+                  "Culture",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Munnar",
+            "state": "Kerala",
+            "best_month": "February",
+            "coordinates": {
+                  "latitude": 10.0889,
+                  "longitude": 77.0595
+            },
+            "highlights": [
+                  "Tea plantations",
+                  "Eravikulam National Park",
+                  "Mattupetty Dam"
+            ],
+            "activities": [
+                  "Tea tasting",
+                  "Wildlife spotting",
+                  "Nature walks"
+            ],
+            "temperature": "10-20°C",
+            "description": "A hill station in Kerala known for its lush tea gardens and tranquil environment.",
+            "nearest_airport": "Cochin International Airport",
+            "popular_events": [
+                  "Munnar Flower Show"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Munnar_tea_gardens.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Hampi",
+            "state": "Karnataka",
+            "best_month": "February",
+            "coordinates": {
+                  "latitude": 15.3350,
+                  "longitude": 76.4600
+            },
+            "highlights": [
+                  "Virupaksha Temple",
+                  "Vijaya Vittala Temple",
+                  "Lotus Mahal"
+            ],
+            "activities": [
+                  "Heritage walks",
+                  "Rock climbing",
+                  "Photography"
+            ],
+            "temperature": "18-32°C",
+            "description": "A UNESCO World Heritage Site with ancient ruins and stunning architecture.",
+            "nearest_airport": "Hubli Airport",
+            "popular_events": [
+                  "Hampi Utsav"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Vijaya_Vittala_Temple_in_Hampi.jpg",
+            "category": [
+                  "History",
+                  "Culture",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Coorg",
+            "state": "Karnataka",
+            "best_month": "February",
+            "coordinates": {
+                  "latitude": 12.4260,
+                  "longitude": 75.7382
+            },
+            "highlights": [
+                  "Coffee plantations",
+                  "Abbey Falls",
+                  "Raja's Seat"
+            ],
+            "activities": [
+                  "Coffee tours",
+                  "Nature walks",
+                  "Photography"
+            ],
+            "temperature": "15-30°C",
+            "description": "Known for its scenic beauty and coffee estates, Coorg is a serene getaway.",
+            "nearest_airport": "Mangalore International Airport",
+            "popular_events": [
+                  "Coorg Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Abbey_Falls_Coorg.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Relaxation"
+            ]
+      },
+      {
+            "name": "Udaipur",
+            "state": "Rajasthan",
+            "best_month": "February",
+            "coordinates": {
+                  "latitude": 24.5854,
+                  "longitude": 73.7125
+            },
+            "highlights": [
+                  "City Palace",
+                  "Lake Pichola",
+                  "Jag Mandir",
+                  "Sajjangarh Palace"
+            ],
+            "activities": [
+                  "Boat rides",
+                  "Palace exploration",
+                  "Cultural shows"
+            ],
+            "temperature": "12-28°C",
+            "description": "Famous for its lakes and royal palaces, Udaipur is a romantic and picturesque city.",
+            "nearest_airport": "Maharana Pratap Airport",
+            "popular_events": [
+                  "Mewar Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Udaipur_City_Palace.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Relaxation"
+            ]
+      },
+      {
+            "name": "Darjeeling",
+            "state": "West Bengal",
+            "best_month": "March",
+            "coordinates": {
+                  "latitude": 27.0410,
+                  "longitude": 88.2663
+            },
+            "highlights": [
+                  "Tiger Hill",
+                  "Toy Train",
+                  "Tea estates"
+            ],
+            "activities": [
+                  "Toy train rides",
+                  "Trekking",
+                  "Tea plantation tours"
+            ],
+            "temperature": "5-15°C",
+            "description": "Famous for its tea plantations and stunning views of the Kanchenjunga mountain.",
+            "nearest_airport": "Bagdogra Airport",
+            "popular_events": [
+                  "Darjeeling Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Darjeeling_tea_plantation.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Rishikesh",
+            "state": "Uttarakhand",
+            "best_month": "March",
+            "coordinates": {
+                  "latitude": 30.0869,
+                  "longitude": 78.2676
+            },
+            "highlights": [
+                  "Laxman Jhula",
+                  "Triveni Ghat",
+                  "Beatles Ashram"
+            ],
+            "activities": [
+                  "Yoga retreats",
+                  "Rafting",
+                  "Hiking"
+            ],
+            "temperature": "12-28°C",
+            "description": "The spiritual capital of India, known for yoga, adventure activities, and the Ganges River.",
+            "nearest_airport": "Jolly Grant Airport",
+            "popular_events": [
+                  "International Yoga Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Laxman_Jhula.jpg",
+            "category": [
+                  "Adventure",
+                  "Spirituality",
+                  "Nature"
+            ]
+      },
+      {
+            "name": "Shimla",
+            "state": "Himachal Pradesh",
+            "best_month": "March",
+            "coordinates": {
+                  "latitude": 31.1048,
+                  "longitude": 77.1734
+            },
+            "highlights": [
+                  "The Ridge",
+                  "Jakhoo Temple",
+                  "Mall Road"
+            ],
+            "activities": [
+                  "Shopping",
+                  "Sightseeing",
+                  "Trekking"
+            ],
+            "temperature": "7-18°C",
+            "description": "A popular hill station with colonial charm and a pleasant climate.",
+            "nearest_airport": "Shimla Airport",
+            "popular_events": [
+                  "Summer Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/The_Ridge%2C_Shimla.jpg",
+            "category": [
+                  "Nature",
+                  "Culture",
+                  "Adventure"
+            ]
+      },
+      {
+            "name": "Khajuraho",
+            "state": "Madhya Pradesh",
+            "best_month": "March",
+            "coordinates": {
+                  "latitude": 24.8318,
+                  "longitude": 79.9199
+            },
+            "highlights": [
+                  "Erotic temples",
+                  "UNESCO Heritage Site",
+                  "Light and sound show"
+            ],
+            "activities": [
+                  "Temple tours",
+                  "Photography",
+                  "Cultural shows"
+            ],
+            "temperature": "15-30°C",
+            "description": "Famous for its intricate and erotic sculptures in the temples, Khajuraho is a UNESCO World Heritage Site.",
+            "nearest_airport": "Khajuraho Airport",
+            "popular_events": [
+                  "Khajuraho Dance Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Khajuraho_Temple_Complex.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Taj Mahal",
+            "state": "Uttar Pradesh",
+            "best_month": "April",
+            "coordinates": {
+                  "latitude": 27.1751,
+                  "longitude": 78.0421
+            },
+            "highlights": [
+                  "Main Mausoleum",
+                  "Mehtab Bagh",
+                  "Taj Museum"
+            ],
+            "activities": [
+                  "Photography",
+                  "Sightseeing",
+                  "Historical tours"
+            ],
+            "temperature": "25-40°C",
+            "description": "The Taj Mahal, one of the Seven Wonders of the World, is a symbol of love and architectural brilliance.",
+            "nearest_airport": "Agra Airport",
+            "popular_events": [
+                  "Taj Mahotsav"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Taj_Mahal_in_March_2004.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Kochi",
+            "state": "Kerala",
+            "best_month": "April",
+            "coordinates": {
+                  "latitude": 9.9312,
+                  "longitude": 76.2673
+            },
+            "highlights": [
+                  "Fort Kochi",
+                  "Chinese Fishing Nets",
+                  "Mattancherry Palace"
+            ],
+            "activities": [
+                  "Backwater tours",
+                  "Sightseeing",
+                  "Cultural experiences"
+            ],
+            "temperature": "28-35°C",
+            "description": "Kochi is known for its mix of colonial architecture, scenic beauty, and vibrant art scene.",
+            "nearest_airport": "Cochin International Airport",
+            "popular_events": [
+                  "Cochin Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Fort_Kochi%2C_Kerala.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Varanasi",
+            "state": "Uttar Pradesh",
+            "best_month": "April",
+            "coordinates": {
+                  "latitude": 25.3350,
+                  "longitude": 82.5730
+            },
+            "highlights": [
+                  "Kashi Vishwanath Temple",
+                  "Dashashwamedh Ghat",
+                  "Ganga Aarti"
+            ],
+            "activities": [
+                  "Spiritual exploration",
+                  "Boat rides",
+                  "Pilgrimage tours"
+            ],
+            "temperature": "25-40°C",
+            "description": "One of the oldest living cities in the world, Varanasi is a spiritual center for Hindus.",
+            "nearest_airport": "Lal Bahadur Shastri Airport",
+            "popular_events": [
+                  "Dev Deepawali"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Varanasi_Ganga_Aarti.jpg",
+            "category": [
+                  "Spirituality",
+                  "History",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Khajuraho",
+            "state": "Madhya Pradesh",
+            "best_month": "April",
+            "coordinates": {
+                  "latitude": 24.8318,
+                  "longitude": 79.9199
+            },
+            "highlights": [
+                  "Erotic temples",
+                  "UNESCO Heritage Site",
+                  "Light and sound show"
+            ],
+            "activities": [
+                  "Temple tours",
+                  "Photography",
+                  "Cultural shows"
+            ],
+            "temperature": "28-40°C",
+            "description": "Khajuraho is famous for its intricate and erotic sculptures in the temples, a UNESCO World Heritage Site.",
+            "nearest_airport": "Khajuraho Airport",
+            "popular_events": [
+                  "Khajuraho Dance Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Khajuraho_Temple_Complex.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Andaman Islands",
+            "state": "Andaman and Nicobar Islands",
+            "best_month": "April",
+            "coordinates": {
+                  "latitude": 11.7401,
+                  "longitude": 92.6586
+            },
+            "highlights": [
+                  "Havelock Island",
+                  "Radhanagar Beach",
+                  "Cellular Jail"
+            ],
+            "activities": [
+                  "Snorkeling",
+                  "Scuba diving",
+                  "Beach relaxation"
+            ],
+            "temperature": "28-35°C",
+            "description": "The Andaman Islands offer pristine beaches, crystal clear waters, and a rich history.",
+            "nearest_airport": "Veer Savarkar International Airport",
+            "popular_events": [
+                  "Andaman Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Radhanagar_Beach%2C_Havelock.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Beach"
+            ]
+      },
+      {
+            "name": "Manali",
+            "state": "Himachal Pradesh",
+            "best_month": "May",
+            "coordinates": {
+                  "latitude": 32.2396,
+                  "longitude": 77.1887
+            },
+            "highlights": [
+                  "Solang Valley",
+                  "Hadimba Temple",
+                  "Rohtang Pass"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Paragliding",
+                  "River rafting"
+            ],
+            "temperature": "15-25°C",
+            "description": "A popular hill station, Manali offers scenic beauty, adventure sports, and a charming atmosphere.",
+            "nearest_airport": "Bhuntar Airport",
+            "popular_events": [
+                  "Manali Summer Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Solang_Valley.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Ooty",
+            "state": "Tamil Nadu",
+            "best_month": "May",
+            "coordinates": {
+                  "latitude": 11.4050,
+                  "longitude": 76.6950
+            },
+            "highlights": [
+                  "Ooty Lake",
+                  "Botanical Gardens",
+                  "Doddabetta Peak"
+            ],
+            "activities": [
+                  "Boating",
+                  "Sightseeing",
+                  "Trekking"
+            ],
+            "temperature": "10-20°C",
+            "description": "Ooty, also known as the 'Queen of Hill Stations', offers a cool climate and beautiful landscapes.",
+            "nearest_airport": "Coimbatore International Airport",
+            "popular_events": [
+                  "Ooty Flower Show"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ooty_Lake.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Coorg",
+            "state": "Karnataka",
+            "best_month": "May",
+            "coordinates": {
+                  "latitude": 12.4260,
+                  "longitude": 75.7382
+            },
+            "highlights": [
+                  "Coffee plantations",
+                  "Abbey Falls",
+                  "Raja's Seat"
+            ],
+            "activities": [
+                  "Coffee tours",
+                  "Nature walks",
+                  "Photography"
+            ],
+            "temperature": "20-30°C",
+            "description": "Coorg is known for its scenic beauty, coffee estates, and pleasant weather.",
+            "nearest_airport": "Mangalore International Airport",
+            "popular_events": [
+                  "Coorg Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Abbey_Falls_Coorg.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Relaxation"
+            ]
+      },
+      {
+            "name": "Sikkim",
+            "state": "Sikkim",
+            "best_month": "May",
+            "coordinates": {
+                  "latitude": 27.0330,
+                  "longitude": 88.6126
+            },
+            "highlights": [
+                  "Khangchendzonga National Park",
+                  "Tsomgo Lake",
+                  "Rumtek Monastery"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Sightseeing",
+                  "Photography"
+            ],
+            "temperature": "10-20°C",
+            "description": "Sikkim offers stunning views of the Himalayas, Buddhist monasteries, and vibrant culture.",
+            "nearest_airport": "Pakyong Airport",
+            "popular_events": [
+                  "Sikkim Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Changu_Lake.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Leh-Ladakh",
+            "state": "Ladakh",
+            "best_month": "May",
+            "coordinates": {
+                  "latitude": 34.1526,
+                  "longitude": 77.5774
+            },
+            "highlights": [
+                  "Pangong Lake",
+                  "Nubra Valley",
+                  "Leh Palace"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Camping",
+                  "Photography"
+            ],
+            "temperature": "-5 to 15°C",
+            "description": "A breathtaking destination with stunning landscapes, high-altitude treks, and monasteries.",
+            "nearest_airport": "Leh Airport",
+            "popular_events": [
+                  "Leh Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Leh_ladakh.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Kumarakom",
+            "state": "Kerala",
+            "best_month": "June",
+            "coordinates": {
+                  "latitude": 9.6000,
+                  "longitude": 76.4000
+            },
+            "highlights": [
+                  "Backwaters",
+                  "Vembanad Lake",
+                  "Kumarakom Bird Sanctuary"
+            ],
+            "activities": [
+                  "Houseboat ride",
+                  "Birdwatching",
+                  "Photography"
+            ],
+            "temperature": "28-35°C",
+            "description": "Kumarakom is known for its tranquil backwaters and bird sanctuary.",
+            "nearest_airport": "Cochin International Airport",
+            "popular_events": [
+                  "Vallam Kali"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Kumarakom_Backwaters.jpg",
+            "category": [
+                  "Nature",
+                  "Relaxation",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Nainital",
+            "state": "Uttarakhand",
+            "best_month": "June",
+            "coordinates": {
+                  "latitude": 29.3800,
+                  "longitude": 79.4600
+            },
+            "highlights": [
+                  "Naini Lake",
+                  "Naina Devi Temple",
+                  "Tiffin Top"
+            ],
+            "activities": [
+                  "Boating",
+                  "Trekking",
+                  "Sightseeing"
+            ],
+            "temperature": "10-30°C",
+            "description": "Nainital is a charming hill station famous for its picturesque lakes and serene environment.",
+            "nearest_airport": "Pantnagar Airport",
+            "popular_events": [
+                  "Nainital Summer Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Naini_Lake_Nainital.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Darjeeling",
+            "state": "West Bengal",
+            "best_month": "June",
+            "coordinates": {
+                  "latitude": 27.0310,
+                  "longitude": 88.6112
+            },
+            "highlights": [
+                  "Tiger Hill",
+                  "Batasia Loop",
+                  "Darjeeling Himalayan Railway"
+            ],
+            "activities": [
+                  "Toy Train ride",
+                  "Tea garden tours",
+                  "Trekking"
+            ],
+            "temperature": "15-25°C",
+            "description": "Darjeeling, known for its tea gardens, offers breathtaking views of the Kanchenjunga.",
+            "nearest_airport": "Bagdogra Airport",
+            "popular_events": [
+                  "Darjeeling Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tiger_Hill_Darjeeling.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Rishikesh",
+            "state": "Uttarakhand",
+            "best_month": "June",
+            "coordinates": {
+                  "latitude": 30.0853,
+                  "longitude": 78.2676
+            },
+            "highlights": [
+                  "Lakshman Jhula",
+                  "Ganga Aarti",
+                  "Rajaji National Park"
+            ],
+            "activities": [
+                  "Yoga",
+                  "River rafting",
+                  "Trekking"
+            ],
+            "temperature": "25-35°C",
+            "description": "Rishikesh is known as the yoga capital of the world, offering adventure and spiritual experiences.",
+            "nearest_airport": "Dehradun Airport",
+            "popular_events": [
+                  "International Yoga Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Lakshman_Jhula.jpg",
+            "category": [
+                  "Spirituality",
+                  "Adventure",
+                  "Wellness"
+            ]
+      },
+      {
+            "name": "Mount Abu",
+            "state": "Rajasthan",
+            "best_month": "June",
+            "coordinates": {
+                  "latitude": 24.5854,
+                  "longitude": 72.7088
+            },
+            "highlights": [
+                  "Dilwara Temples",
+                  "Nakki Lake",
+                  "Sunset Point"
+            ],
+            "activities": [
+                  "Boating",
+                  "Sightseeing",
+                  "Temple visits"
+            ],
+            "temperature": "20-30°C",
+            "description": "Mount Abu is a hill station known for its cool climate and religious significance.",
+            "nearest_airport": "Maharana Pratap Airport",
+            "popular_events": [
+                  "Summer Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nakki_Lake_Mount_Abu.jpg",
+            "category": [
+                  "Nature",
+                  "Culture",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Kedarnath",
+            "state": "Uttarakhand",
+            "best_month": "July",
+            "coordinates": {
+                  "latitude": 30.7326,
+                  "longitude": 79.0669
+            },
+            "highlights": [
+                  "Kedarnath Temple",
+                  "Himalayan treks",
+                  "Scenic views"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Spiritual exploration",
+                  "Photography"
+            ],
+            "temperature": "-2 to 12°C",
+            "description": "Kedarnath is a sacred pilgrimage site surrounded by snow-capped mountains.",
+            "nearest_airport": "Jolly Grant Airport",
+            "popular_events": [
+                  "Kedarnath Yatra"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kedarnath_View_from_Mountain.jpg",
+            "category": [
+                  "Spirituality",
+                  "Adventure",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Manali",
+            "state": "Himachal Pradesh",
+            "best_month": "July",
+            "coordinates": {
+                  "latitude": 32.2396,
+                  "longitude": 77.1887
+            },
+            "highlights": [
+                  "Solang Valley",
+                  "Hadimba Temple",
+                  "Rohtang Pass"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Paragliding",
+                  "River rafting"
+            ],
+            "temperature": "15-25°C",
+            "description": "Manali is a hill station known for adventure activities and scenic beauty.",
+            "nearest_airport": "Bhuntar Airport",
+            "popular_events": [
+                  "Manali Summer Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Solang_Valley.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Spiti Valley",
+            "state": "Himachal Pradesh",
+            "best_month": "July",
+            "coordinates": {
+                  "latitude": 32.0314,
+                  "longitude": 78.1860
+            },
+            "highlights": [
+                  "Key Monastery",
+                  "Chandratal Lake",
+                  "Pin Valley National Park"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Camping",
+                  "Photography"
+            ],
+            "temperature": "5-20°C",
+            "description": "Spiti Valley is known for its remote monasteries, breathtaking landscapes, and adventure trails.",
+            "nearest_airport": "Bhuntar Airport",
+            "popular_events": [
+                  "Spiti Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Spiti_Valley.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Tawang",
+            "state": "Arunachal Pradesh",
+            "best_month": "July",
+            "coordinates": {
+                  "latitude": 27.5573,
+                  "longitude": 91.8612
+            },
+            "highlights": [
+                  "Tawang Monastery",
+                  "Sela Pass",
+                  "Bumla Pass"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Monastery tours",
+                  "Photography"
+            ],
+            "temperature": "10-20°C",
+            "description": "Tawang is a remote town offering beautiful Buddhist monasteries and mountain views.",
+            "nearest_airport": "Tezpur Airport",
+            "popular_events": [
+                  "Tawang Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Tawang_Monastery.jpg",
+            "category": [
+                  "Culture",
+                  "Adventure",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Zanskar Valley",
+            "state": "Ladakh",
+            "best_month": "July",
+            "coordinates": {
+                  "latitude": 34.0621,
+                  "longitude": 76.9560
+            },
+            "highlights": [
+                  "Markha Valley Trek",
+                  "Zanskar River",
+                  "Buddhist monasteries"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Camping",
+                  "Photography"
+            ],
+            "temperature": "5-20°C",
+            "description": "Zanskar Valley is famous for its untouched landscapes, monasteries, and trekking routes.",
+            "nearest_airport": "Leh Airport",
+            "popular_events": [
+                  "Zanskar Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Zanskar_Valley.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Leh",
+            "state": "Ladakh",
+            "best_month": "August",
+            "coordinates": {
+                  "latitude": 34.1526,
+                  "longitude": 77.5773
+            },
+            "highlights": [
+                  "Pangong Lake",
+                  "Nubra Valley",
+                  "Thiksey Monastery"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Camping",
+                  "Sightseeing"
+            ],
+            "temperature": "10-20°C",
+            "description": "Leh is known for its breathtaking landscapes, Buddhist monasteries, and adventure opportunities.",
+            "nearest_airport": "Leh Airport",
+            "popular_events": [
+                  "Ladakh Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Pangong_Lake_Ladakh.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Chopta",
+            "state": "Uttarakhand",
+            "best_month": "August",
+            "coordinates": {
+                  "latitude": 30.2951,
+                  "longitude": 79.2649
+            },
+            "highlights": [
+                  "Chopta Valley",
+                  "Tungnath Temple",
+                  "Kedarnath Peak"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Camping",
+                  "Photography"
+            ],
+            "temperature": "10-20°C",
+            "description": "Chopta is known as the 'Mini Switzerland of India', perfect for trekking and nature lovers.",
+            "nearest_airport": "Jolly Grant Airport",
+            "popular_events": [
+                  "Chopta Trekking Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Tungnath_Temple.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Sikkim",
+            "state": "Sikkim",
+            "best_month": "August",
+            "coordinates": {
+                  "latitude": 27.5330,
+                  "longitude": 88.5122
+            },
+            "highlights": [
+                  "Kanchenjunga Peak",
+                  "Tsomgo Lake",
+                  "Rumtek Monastery"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Nature walks",
+                  "Buddhist tours"
+            ],
+            "temperature": "15-25°C",
+            "description": "Sikkim offers stunning views of the Himalayas and rich Buddhist culture.",
+            "nearest_airport": "Bagdogra Airport",
+            "popular_events": [
+                  "Sikkim Folk Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Kanchenjunga.jpg",
+            "category": [
+                  "Nature",
+                  "Adventure",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Varanasi",
+            "state": "Uttar Pradesh",
+            "best_month": "August",
+            "coordinates": {
+                  "latitude": 25.3176,
+                  "longitude": 82.9739
+            },
+            "highlights": [
+                  "Ganges River",
+                  "Kashi Vishwanath Temple",
+                  "Dashashwamedh Ghat"
+            ],
+            "activities": [
+                  "Ganga Aarti",
+                  "Boat ride",
+                  "Temple tours"
+            ],
+            "temperature": "25-35°C",
+            "description": "Varanasi, one of the oldest living cities in the world, is a spiritual hub on the banks of the Ganges.",
+            "nearest_airport": "Lal Bahadur Shastri Airport",
+            "popular_events": [
+                  "Ganga Mahotsav"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Varanasi_Ghat_2012.jpg",
+            "category": [
+                  "Spirituality",
+                  "Culture",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Udaipur",
+            "state": "Rajasthan",
+            "best_month": "August",
+            "coordinates": {
+                  "latitude": 24.5854,
+                  "longitude": 73.7125
+            },
+            "highlights": [
+                  "Lake Pichola",
+                  "City Palace",
+                  "Jag Mandir"
+            ],
+            "activities": [
+                  "Boat ride",
+                  "Palace tours",
+                  "Cultural shows"
+            ],
+            "temperature": "25-35°C",
+            "description": "Udaipur is known for its lakes, palaces, and royal history.",
+            "nearest_airport": "Maharana Pratap Airport",
+            "popular_events": [
+                  "Mewar Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Udaipur_Lake_Pichola.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Coorg",
+            "state": "Karnataka",
+            "best_month": "September",
+            "coordinates": {
+                  "latitude": 12.3294,
+                  "longitude": 75.8013
+            },
+            "highlights": [
+                  "Coffee plantations",
+                  "Dubare Elephant Camp",
+                  "Abbey Falls"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Coffee tasting",
+                  "Wildlife safari"
+            ],
+            "temperature": "15-25°C",
+            "description": "Coorg is famous for its scenic beauty, coffee plantations, and wildlife.",
+            "nearest_airport": "Mangalore International Airport",
+            "popular_events": [
+                  "Coorg Coffee Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Abbey_Falls_in_Coorg.jpg",
+            "category": [
+                  "Nature",
+                  "Wildlife",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Tirupati",
+            "state": "Andhra Pradesh",
+            "best_month": "September",
+            "coordinates": {
+                  "latitude": 13.6288,
+                  "longitude": 79.4193
+            },
+            "highlights": [
+                  "Venkateswara Temple",
+                  "Srinivasa Mangapuram",
+                  "Chandragiri Fort"
+            ],
+            "activities": [
+                  "Temple visits",
+                  "Trekking",
+                  "Photography"
+            ],
+            "temperature": "25-35°C",
+            "description": "Tirupati is one of the holiest pilgrimage sites in India, known for the famous Venkateswara Temple.",
+            "nearest_airport": "Tirupati Airport",
+            "popular_events": [
+                  "Tirumala Brahmotsavam"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Venkateswara_Temple.jpg",
+            "category": [
+                  "Spirituality",
+                  "History",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Rishikesh",
+            "state": "Uttarakhand",
+            "best_month": "September",
+            "coordinates": {
+                  "latitude": 30.0853,
+                  "longitude": 78.2676
+            },
+            "highlights": [
+                  "Lakshman Jhula",
+                  "Ganga Aarti",
+                  "Rajaji National Park"
+            ],
+            "activities": [
+                  "Yoga",
+                  "River rafting",
+                  "Trekking"
+            ],
+            "temperature": "20-30°C",
+            "description": "Rishikesh is a spiritual hub and adventure destination with activities like yoga, rafting, and more.",
+            "nearest_airport": "Dehradun Airport",
+            "popular_events": [
+                  "International Yoga Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Lakshman_Jhula.jpg",
+            "category": [
+                  "Adventure",
+                  "Spirituality",
+                  "Wellness"
+            ]
+      },
+      {
+            "name": "Jaisalmer",
+            "state": "Rajasthan",
+            "best_month": "September",
+            "coordinates": {
+                  "latitude": 26.9124,
+                  "longitude": 70.9124
+            },
+            "highlights": [
+                  "Jaisalmer Fort",
+                  "Sam Sand Dunes",
+                  "Patwon Ki Haveli"
+            ],
+            "activities": [
+                  "Camel safari",
+                  "Sightseeing",
+                  "Cultural performances"
+            ],
+            "temperature": "25-35°C",
+            "description": "Jaisalmer is known for its golden desert, grand fort, and sand dunes.",
+            "nearest_airport": "Jaisalmer Airport",
+            "popular_events": [
+                  "Desert Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Jaisalmer_Fort_in_India.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Adventure"
+            ]
+      },
+      {
+            "name": "Kochi",
+            "state": "Kerala",
+            "best_month": "September",
+            "coordinates": {
+                  "latitude": 9.9312,
+                  "longitude": 76.2673
+            },
+            "highlights": [
+                  "Fort Kochi",
+                  "Chinese Fishing Nets",
+                  "Mattancherry Palace"
+            ],
+            "activities": [
+                  "Cultural tours",
+                  "Shopping",
+                  "Backwater cruise"
+            ],
+            "temperature": "25-35°C",
+            "description": "Kochi offers a mix of colonial architecture, backwaters, and vibrant culture.",
+            "nearest_airport": "Cochin International Airport",
+            "popular_events": [
+                  "Cochin Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Fort_Kochi_Beach.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Mysore",
+            "state": "Karnataka",
+            "best_month": "October",
+            "coordinates": {
+                  "latitude": 12.2958,
+                  "longitude": 76.6394
+            },
+            "highlights": [
+                  "Mysore Palace",
+                  "Chamundi Hill",
+                  "Brindavan Gardens"
+            ],
+            "activities": [
+                  "Palace tours",
+                  "Cultural events",
+                  "Shopping"
+            ],
+            "temperature": "20-30°C",
+            "description": "Mysore, known for its royal heritage, is one of the most beautiful cities in Karnataka.",
+            "nearest_airport": "Mysore Airport",
+            "popular_events": [
+                  "Dasara Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mysore_Palace_%28night_view%29.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Festivals"
+            ]
+      },
+      {
+            "name": "Ranthambore National Park",
+            "state": "Rajasthan",
+            "best_month": "October",
+            "coordinates": {
+                  "latitude": 26.0000,
+                  "longitude": 76.3499
+            },
+            "highlights": [
+                  "Wildlife safari",
+                  "Ranthambore Fort",
+                  "Tiger sightings"
+            ],
+            "activities": [
+                  "Safari",
+                  "Wildlife photography",
+                  "Trekking"
+            ],
+            "temperature": "20-30°C",
+            "description": "Ranthambore is one of the largest national parks in India, famous for its tigers and diverse wildlife.",
+            "nearest_airport": "Sawai Madhopur Airport",
+            "popular_events": [
+                  "Wildlife Photography Workshops"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ranthambore_National_Park.jpg",
+            "category": [
+                  "Wildlife",
+                  "Nature",
+                  "Adventure"
+            ]
+      },
+      {
+            "name": "Agra",
+            "state": "Uttar Pradesh",
+            "best_month": "October",
+            "coordinates": {
+                  "latitude": 27.1751,
+                  "longitude": 78.0421
+            },
+            "highlights": [
+                  "Taj Mahal",
+                  "Agra Fort",
+                  "Fatehpur Sikri"
+            ],
+            "activities": [
+                  "Sightseeing",
+                  "Photography",
+                  "Cultural tours"
+            ],
+            "temperature": "25-35°C",
+            "description": "Agra is home to the iconic Taj Mahal, a symbol of eternal love and a UNESCO World Heritage site.",
+            "nearest_airport": "Agra Airport",
+            "popular_events": [
+                  "Taj Mahotsav"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Taj_Mahal_in_March_2004.jpg",
+            "category": [
+                  "History",
+                  "Culture",
+                  "Architecture"
+            ]
+      },
+      {
+            "name": "Goa",
+            "state": "Goa",
+            "best_month": "October",
+            "coordinates": {
+                  "latitude": 15.2993,
+                  "longitude": 74.1240
+            },
+            "highlights": [
+                  "Beaches",
+                  "Old Goa churches",
+                  "Anjuna Flea Market"
+            ],
+            "activities": [
+                  "Beach activities",
+                  "Shopping",
+                  "Sightseeing"
+            ],
+            "temperature": "25-35°C",
+            "description": "Goa is a paradise for beach lovers, offering a mix of culture, beaches, and vibrant nightlife.",
+            "nearest_airport": "Goa International Airport",
+            "popular_events": [
+                  "Goa Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Anjuna_Beach_in_Goa.jpg",
+            "category": [
+                  "Beach",
+                  "Culture",
+                  "Nightlife"
+            ]
+      },
+      {
+            "name": "Jodhpur",
+            "state": "Rajasthan",
+            "best_month": "October",
+            "coordinates": {
+                  "latitude": 26.2950,
+                  "longitude": 73.0037
+            },
+            "highlights": [
+                  "Mehrangarh Fort",
+                  "Umaid Bhawan Palace",
+                  "Clock Tower"
+            ],
+            "activities": [
+                  "Palace tours",
+                  "Cultural shows",
+                  "Photography"
+            ],
+            "temperature": "20-30°C",
+            "description": "Jodhpur, known as the Blue City, is famous for its historical forts and vibrant markets.",
+            "nearest_airport": "Jodhpur Airport",
+            "popular_events": [
+                  "Marwar Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mehrangarh_fort_from_the_Clock_Tower_in_Jodhpur.jpg",
+            "category": [
+                  "History",
+                  "Culture",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Nagaland",
+            "state": "Nagaland",
+            "best_month": "November",
+            "coordinates": {
+                  "latitude": 26.1584,
+                  "longitude": 94.5624
+            },
+            "highlights": [
+                  "Hornbill Festival",
+                  "Kohima",
+                  "Mokokchung"
+            ],
+            "activities": [
+                  "Cultural festivals",
+                  "Tribal tours",
+                  "Photography"
+            ],
+            "temperature": "10-20°C",
+            "description": "Nagaland is known for its vibrant tribal culture, rich heritage, and the famous Hornbill Festival.",
+            "nearest_airport": "Dimapur Airport",
+            "popular_events": [
+                  "Hornbill Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Hornbill_Festival_2015_entrance.jpg",
+            "category": [
+                  "Culture",
+                  "Festivals",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Kochi",
+            "state": "Kerala",
+            "best_month": "November",
+            "coordinates": {
+                  "latitude": 9.9312,
+                  "longitude": 76.2673
+            },
+            "highlights": [
+                  "Fort Kochi",
+                  "Chinese Fishing Nets",
+                  "Mattancherry Palace"
+            ],
+            "activities": [
+                  "Cultural tours",
+                  "Shopping",
+                  "Backwater cruise"
+            ],
+            "temperature": "25-35°C",
+            "description": "Kochi offers a mix of colonial architecture, backwaters, and vibrant culture.",
+            "nearest_airport": "Cochin International Airport",
+            "popular_events": [
+                  "Cochin Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Fort_Kochi_Beach.jpg",
+            "category": [
+                  "Culture",
+                  "History",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Varkala",
+            "state": "Kerala",
+            "best_month": "November",
+            "coordinates": {
+                  "latitude": 8.7331,
+                  "longitude": 76.7130
+            },
+            "highlights": [
+                  "Varkala Beach",
+                  "Janardanaswamy Temple",
+                  "Papanasam Beach"
+            ],
+            "activities": [
+                  "Beach activities",
+                  "Yoga",
+                  "Shopping"
+            ],
+            "temperature": "25-35°C",
+            "description": "Varkala offers beautiful beaches, yoga retreats, and a spiritual ambiance.",
+            "nearest_airport": "Trivandrum International Airport",
+            "popular_events": [
+                  "Varkala Beach Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Varkala_Beach.jpg",
+            "category": [
+                  "Beach",
+                  "Wellness",
+                  "Spirituality"
+            ]
+      },
+      {
+            "name": "Bikaner",
+            "state": "Rajasthan",
+            "best_month": "November",
+            "coordinates": {
+                  "latitude": 28.0229,
+                  "longitude": 73.3120
+            },
+            "highlights": [
+                  "Junagarh Fort",
+                  "Karni Mata Temple",
+                  "Bikaner Camel Festival"
+            ],
+            "activities": [
+                  "Camel safari",
+                  "Cultural events",
+                  "Photography"
+            ],
+            "temperature": "20-30°C",
+            "description": "Bikaner is a city known for its unique culture, forts, and vibrant festivals.",
+            "nearest_airport": "Bikaner Airport",
+            "popular_events": [
+                  "Bikaner Camel Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Junagarh_Fort_in_Bikaner.jpg",
+            "category": [
+                  "Culture",
+                  "Festivals",
+                  "Photography"
+            ]
+      },
+      {
+            "name": "Jammu",
+            "state": "Jammu & Kashmir",
+            "best_month": "November",
+            "coordinates": {
+                  "latitude": 32.7266,
+                  "longitude": 74.8570
+            },
+            "highlights": [
+                  "Vaishno Devi Temple",
+                  "Raghunath Temple",
+                  "Mansar Lake"
+            ],
+            "activities": [
+                  "Pilgrimage",
+                  "Trekking",
+                  "Cultural shows"
+            ],
+            "temperature": "5-15°C",
+            "description": "Jammu is an important pilgrimage destination, with several revered temples.",
+            "nearest_airport": "Jammu Airport",
+            "popular_events": [
+                  "Vaishno Devi Yatra"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/VaishnoDeviTemple.jpg",
+            "category": [
+                  "Spirituality",
+                  "Culture",
+                  "Pilgrimage"
+            ]
+      },
+      {
+            "name": "Kashmir",
+            "state": "Jammu & Kashmir",
+            "best_month": "December",
+            "coordinates": {
+                  "latitude": 33.7782,
+                  "longitude": 75.3228
+            },
+            "highlights": [
+                  "Srinagar",
+                  "Gulmarg",
+                  "Pahalgam"
+            ],
+            "activities": [
+                  "Skiing",
+                  "Snowboarding",
+                  "Shikara ride"
+            ],
+            "temperature": "-5 to 5°C",
+            "description": "Kashmir is a winter paradise with snow-covered landscapes and a rich culture.",
+            "nearest_airport": "Srinagar Airport",
+            "popular_events": [
+                  "Kashmir Snow Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Srinagar_Dal_Lake.jpg",
+            "category": [
+                  "Snow Sports",
+                  "Adventure",
+                  "Nature"
+            ]
+      },
+      {
+            "name": "Manali",
+            "state": "Himachal Pradesh",
+            "best_month": "December",
+            "coordinates": {
+                  "latitude": 32.2396,
+                  "longitude": 77.1887
+            },
+            "highlights": [
+                  "Solang Valley",
+                  "Rohtang Pass",
+                  "Manali Mall Road"
+            ],
+            "activities": [
+                  "Skiing",
+                  "Snowboarding",
+                  "Paragliding"
+            ],
+            "temperature": "-5 to 10°C",
+            "description": "Manali is a popular hill station known for its scenic beauty and adventure activities.",
+            "nearest_airport": "Kullu-Manali Airport",
+            "popular_events": [
+                  "Winter Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Manali_snow.jpg",
+            "category": [
+                  "Snow Sports",
+                  "Adventure",
+                  "Nature"
+            ]
+      },
+      {
+            "name": "Leh",
+            "state": "Ladakh",
+            "best_month": "December",
+            "coordinates": {
+                  "latitude": 34.1526,
+                  "longitude": 77.5771
+            },
+            "highlights": [
+                  "Pangong Lake",
+                  "Leh Palace",
+                  "Magnetic Hill"
+            ],
+            "activities": [
+                  "Trekking",
+                  "Biking",
+                  "Photography"
+            ],
+            "temperature": "-10 to 5°C",
+            "description": "Leh offers an adventure-filled experience amidst breathtaking landscapes and culture.",
+            "nearest_airport": "Leh Airport",
+            "popular_events": [
+                  "Ladakh Winter Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Pangong_Lake_in_winter.jpg",
+            "category": [
+                  "Adventure",
+                  "Nature",
+                  "Culture"
+            ]
+      },
+      {
+            "name": "Rishikesh",
+            "state": "Uttarakhand",
+            "best_month": "December",
+            "coordinates": {
+                  "latitude": 30.0869,
+                  "longitude": 78.2676
+            },
+            "highlights": [
+                  "Lakshman Jhula",
+                  "Ganga Aarti",
+                  "Triveni Ghat"
+            ],
+            "activities": [
+                  "Yoga",
+                  "White-water rafting",
+                  "Trekking"
+            ],
+            "temperature": "5-20°C",
+            "description": "Rishikesh is known for its spiritual ambiance, yoga, and adventure activities.",
+            "nearest_airport": "Dehradun Airport",
+            "popular_events": [
+                  "International Yoga Festival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rishikesh%2C_Uttarakhand.jpg",
+            "category": [
+                  "Spirituality",
+                  "Adventure",
+                  "Wellness"
+            ]
+      },
+      {
+            "name": "Goa",
+            "state": "Goa",
+            "best_month": "December",
+            "coordinates": {
+                  "latitude": 15.2993,
+                  "longitude": 74.1240
+            },
+            "highlights": [
+                  "Beaches",
+                  "Goa Carnival",
+                  "Fort Aguada"
+            ],
+            "activities": [
+                  "Beach activities",
+                  "Water sports",
+                  "Sightseeing"
+            ],
+            "temperature": "25-35°C",
+            "description": "Goa is famous for its beaches, vibrant nightlife, and year-round festivals.",
+            "nearest_airport": "Goa International Airport",
+            "popular_events": [
+                  "Goa Carnival"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Anjuna_Beach_in_Goa.jpg",
+            "category": [
+                  "Beach",
+                  "Culture",
+                  "Festivals"
+            ]
+      }
+]

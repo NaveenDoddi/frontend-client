@@ -1,11 +1,10 @@
 import React from 'react';
 
-import Attractions from './attractions';
-import CityPageExperience from './city_page_experience';
+import Attractions from '../city/attractions';
+import CityPageExperience from '../city/city_page_experience';
 import HomePageExperience from './home_page_experiences';
-// import data from './monthly_wise_data.json'
-import data from './home_page.json'
 
+import data from '../json/home_page.json'
 const homePageINC = () => {
       
       return (

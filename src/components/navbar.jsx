@@ -26,12 +26,7 @@ function Header() {
         color: 'white',
         fontSize: '1rem'
     };
-
-    const hoverStyle = {
-        color: 'red',
-        cursor: 'pointer',
-    };
-
+    
     const [scrolling, setScrolling] = useState(false);
 
     const handleScroll = () => {
@@ -65,8 +60,7 @@ function Header() {
                 <Container fluid >
                     <Navbar.Brand href="/"
                         style={navBrandStyle}
-                        onMouseEnter={e => e.target.style.color = hoverStyle.color}
-                        onMouseLeave={e => e.target.style.color = '#fff'}>
+                        >
                         E<span style={redAccentStyle}>xplore </span>I<span style={redAccentStyle}>NDIA</span>
                     </Navbar.Brand>
 

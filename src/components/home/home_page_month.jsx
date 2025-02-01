@@ -1,5 +1,5 @@
 import React from "react"
-import data from './monthly_wise_data.json'
+import data from '../json/monthly_wise_data.json'
 import { MdFlightTakeoff } from "react-icons/md";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -16,8 +16,8 @@ import "slick-carousel/slick/slick-theme.css";
 function HomePageMonth() {
 
       const settings = {
-            centerMode: true, // Enables centering of the slides
-            centerPadding: "50px", // Amount of the side slides visible (adjust as needed)
+            // centerMode: true, // Enables centering of the slides
+            centerPadding: "30px", // Amount of the side slides visible (adjust as needed)
             slidesToShow: 3, // Number of slides to show in the center
             slidesToScroll: 1,
             autoplay: true,
@@ -29,14 +29,12 @@ function HomePageMonth() {
                         breakpoint: 1024, // For medium screens
                         settings: {
                               slidesToShow: 3, // Show 3 slides
-                              centerPadding: "40px", // Adjust side padding
                         },
                   },
                   {
                         breakpoint: 768, // For small screens
                         settings: {
                               slidesToShow: 2, // Show 2 slides
-                              centerPadding: "30px", // Adjust side padding
                         },
                   },
                   {
@@ -66,7 +64,7 @@ function HomePageMonth() {
                                     <div className="inc-home-page-month-card" key={index}>
                                           <Card>
 
-                                                <Card.Img variant="top" style={{ height: "15rem" }} src={place.image} />
+                                                {/* <Card.Img variant="top" style={{ height: "15rem" }} src={place.image} /> */}
 
                                                 <Card.ImgOverlay>
 

@@ -2,8 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const Attractions = (props) => {
+
       const settings = {
             centerMode: true, // Enables centering of the slides
             centerPadding: "50px", // Amount of the side slides visible (adjust as needed)
@@ -46,16 +48,19 @@ const Attractions = (props) => {
                   </div>
                   <Slider {...settings}>
                         {props.data.map((i, index) =>
-                              <div className="inc-attractions-card" key={index}>
 
-                                    <div className="inc-attractions-image-container">
-                                          <img src={i['image']} alt="" />
-                                          <div className="inc-attractions-heading">
-                                                {i['name']}
+                              <Link to={`/city_page?${i['URL'].split('en')[1]}`}>
+                                    <div className="inc-attractions-card" key={index}>
+                                          <div className="inc-attractions-image-container">
+                                                {/* <img src={i['image']} alt="" loading='lazy'/> */}
+                                                <div className="inc-attractions-heading">
+                                                      {i['name']}
+                                                </div>
                                           </div>
-                                    </div>
 
-                              </div>
+                                    </div>
+                              </Link>
+
                         )}
 
                   </Slider>

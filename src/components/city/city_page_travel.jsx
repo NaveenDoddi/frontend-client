@@ -6,7 +6,7 @@ function CityPageTravel(props) {
                   <div>
                         <div>
                               <h6>Major Airports :</h6>
-                              {props.data[0]['Major Airports :'].map((i) =>
+                              {props.data[0][' Major Airports :'].map((i) =>
                               <p>{i}</p>
                               )}
                               

@@ -1,7 +1,6 @@
 import LeafletMap from "./LeafletMap"
-// import data from './mapdata.json'
-import data from './monthly_wise_data.json'
 
+import data from '../json/monthly_wise_data.json'
 import { useState } from "react"
 
 function MapSection() {

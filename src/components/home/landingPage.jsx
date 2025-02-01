@@ -11,6 +11,11 @@ function Landing() {
                                     text="First slide"
                                     width='100%'
                                     alt='slide1'
+                                    loading='lazy'
+                                    style={{
+                                          opacity: "0.9",
+                                          filter: "brightness(0.8) contrast(0.8) saturate(0.9)",
+                                    }}
                               />
                               <Carousel.Caption>
                                     <h1>Taj Mahal</h1>
@@ -24,6 +29,11 @@ function Landing() {
                                     text="Third slide"
                                     width='100%'
                                     alt='slide2'
+                                    loading='lazy'
+                                    style={{
+                                          opacity: "0.9",
+                                          filter: "brightness(0.8) contrast(0.8) saturate(0.9)",
+                                    }}
 
                               />
                               <Carousel.Caption>
@@ -40,6 +50,12 @@ function Landing() {
                                     text="Third slide"
                                     width='100%'
                                     alt='slide3'
+
+                                    loading='lazy'
+                                    style={{
+                                          opacity: "0.9",
+                                          filter: "brightness(0.8) contrast(0.8) saturate(0.9)",
+                                    }}
 
                               />
                               <Carousel.Caption>

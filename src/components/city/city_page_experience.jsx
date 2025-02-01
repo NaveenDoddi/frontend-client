@@ -33,7 +33,6 @@ function CityPageExperience(props) {
                   },
             ],
       };
-      props.data.map((i, index) => console.log(i['state']))
 
       return (
             <div className="inc-experience-main">
@@ -43,11 +42,11 @@ function CityPageExperience(props) {
 
                   </div>
                   <div>
-                        <Slider style={{ paddingTop: '5vh' }} {...settings}>
+                        <Slider {...settings}>
                               {props.data.map((i, index) =>
                                     <div className="inc-experience-card" key={index}>
                                           <Card key={index} className="inc-experience-image-container">
-                                                <Card.Img variant="top" src={i['image']} />
+                                                {/* <Card.Img variant="top" src={i['image']} loading='lazy'/> */}
                                                 <Card.Body style={{ backgroundColor: "black", color: "white", height: "11rem" }}>
 
                                                       <Card.Title>
@@ -59,9 +58,7 @@ function CityPageExperience(props) {
                                                                   </div>
                                                             : ""}
                                                       </Card.Title>
-                                                      <Card.Text>
-                                                            
-
+                                                      <Card.Text className="text-light">
                                                             {i["text"]}
                                                       </Card.Text>
                                                 </Card.Body>

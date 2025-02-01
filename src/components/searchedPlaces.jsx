@@ -1,6 +1,5 @@
 import React from "react"
 
-
 function SearchedPlaces() {
 
       var data = JSON.parse(localStorage.getItem('tourism_wiki'))

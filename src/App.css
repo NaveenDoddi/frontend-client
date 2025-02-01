@@ -216,7 +216,7 @@ body {
     display: flex;
     justify-content:space-evenly;
 }
-.home-page-landing-video .carousel-indicators button{
+.home-page-landing-video button{
     border: none;
     background:none;
     color: yellow;
@@ -483,32 +483,33 @@ body {
 }
 
 
-.CityPageContent>div:first-child {
+.city-page-content>div:first-child {
     display: block !important;
 }
 
-.CityPageContent h3 {
+.city-page-content h3 {
     font-weight: bold;
+    margin-bottom: 10px;
 
 }
 
-.city_page_map {
-    transform: translateY(-4vh);
+.city-page-map {
+    transform: translateY(-5vh);
 
 }
 
-.city_page_map>* {
+.city-page-map>* {
     height: 40vh !important;
 }
 
-.city_page_content_map {
+.city-page-content-map {
     display: flex;
     justify-content: center;
 
 }
 
 @media (max-width: 576px) {
-    .city_page_content_map {
+    .city-page-content-map {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;

@@ -10,7 +10,7 @@ function CityPageContent(props) {
       }
 
       return (
-            <div className="CityPageContent">
+            <div className="city-page-content">
                   {props.content.map((i, index) =>
                         <div key={index} style={{ display: readMore ? 'block' : 'none'  }}>
 
@@ -21,7 +21,7 @@ function CityPageContent(props) {
 
                         </div>
                   )}
-                  <div className="d-flex justify-content-end">
+                  <div className="d-flex justify-content-end mb-3">
                         <button className="discover-more-btn btn" onClick={ReadMore} >
                               {readMore ? "Read Less":"Read More"}
                         </button>

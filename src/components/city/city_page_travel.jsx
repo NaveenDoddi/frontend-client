@@ -5,17 +5,25 @@ function CityPageTravel(props) {
             <div className="city_page_travel">
                   <div>
                         <div>
-                              <h6>Major Airports :</h6>
-                              {props.data[0][' Major Airports :'].map((i) =>
-                              <p>{i}</p>
-                              )}
-                              
+                              {props.data[1][' Major Airports :'] ?
+                               <div>
+                                    <h6>Nearest Railway Station :</h6>
+                                    {props.data[1][' Major Airports :'].map((i) =>
+                                          <p>{i}</p>
+                                    )}
+                               </div>
+                              :""}
+
                         </div>
                         <div>
-                              <h6>Nearest Railway Station :</h6>
-                              {props.data[1]['Nearest Railway Station :'].map((i) =>
-                              <p>{i}</p>
-                              )}
+                              {props.data[1]['Nearest Railway Station :'] ?
+                               <div>
+                                    <h6>Nearest Railway Station :</h6>
+                                    {props.data[1]['Nearest Railway Station :'].map((i) =>
+                                          <p>{i}</p>
+                                    )}
+                               </div>
+                              :""}
                         </div>
                   </div>
 

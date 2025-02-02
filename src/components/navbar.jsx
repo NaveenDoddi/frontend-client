@@ -9,7 +9,6 @@ import { useState, useEffect } from 'react';
 
 function Header() {
 
-
     const navBrandStyle = {
         fontFamily: 'Lobster, sans-serif',
         fontSize: '1.5rem',

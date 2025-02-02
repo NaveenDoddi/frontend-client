@@ -14,6 +14,7 @@ import HomePageINC from "./home_page_scraper"
 import CityPageBanner from "../city/city_page_banner"
 import Filter from "../filter"
 import SearchedPlaces from "../searchedPlaces"
+import Footer from "../footer/footer"
 function Home() {
       return (
             <div>
@@ -25,11 +26,11 @@ function Home() {
                   <HomePageMonth />
                   <MapSection />
 
-
                   <HomePageINC />
                   
-                  
                   <Filter />
+
+                  <Footer />
 
             </div>
       )

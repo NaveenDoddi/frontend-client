@@ -29,9 +29,9 @@ const CityPageBanner = ({ images, names }) => {
                                                 filter: "brightness(0.8) contrast(0.8) saturate(0.9)",
                                           }}
                                     />
-                                    <Carousel.Caption style={{ position: 'absolute', top: '30%', left: '-20%', display: index === 0 ? 'block' : 'none' }}>
-                                          <p>{names[1]}</p>
-                                          <h1>{names[0]}</h1>
+                                    <Carousel.Caption style={{ position: 'absolute', top: '30%', left: '10%', textAlign:"left", display: index === 0 ? 'block' : 'none' }}>
+                                          <p style={{letterSpacing:"3px"}}>{names[1]}</p>
+                                          <h2>{names[0]}</h2>
                                     </Carousel.Caption>
 
 

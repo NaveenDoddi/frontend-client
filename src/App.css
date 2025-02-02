@@ -115,7 +115,7 @@ body {
 
 .home-page-month-items .slick-slide {
     padding: 5px;
-    
+
 }
 
 
@@ -126,11 +126,12 @@ body {
 
 
 .mapSection {
-    background:url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg')no-repeat center center !important;
+    background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg')no-repeat center center !important;
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
 }
+
 .mapSection h6 {
     font-weight: bolder;
     color: red;
@@ -204,7 +205,7 @@ body {
 
 /* second landing vedio css starts here*/
 
-.home-page-landing-video  .video-container .content {
+.home-page-landing-video .video-container .content {
     position: relative;
     z-index: 1;
     /* Bring content to the front */
@@ -212,16 +213,18 @@ body {
     text-align: center;
     padding: 20%;
 }
-.home-page-landing-video .carousel-indicators{
+
+.home-page-landing-video .carousel-indicators {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.home-page-landing-video button{
+
+.home-page-landing-video button {
     border: none;
-    background:none;
+    background: none;
     color: yellow;
     letter-spacing: 0.2rem;
-    
+
 }
 
 /* second landing vedio css endds here*/
@@ -233,7 +236,7 @@ body {
     justify-content: center;
     padding: 1%;
     gap: 3px;
-    
+
 }
 
 .filterDropdown select {
@@ -270,15 +273,20 @@ body {
     height: auto;
 }
 
-.inc-experience2-main{
-    background: linear-gradient(to bottom,  #dc3545 65%, transparent 50%);
+.inc-crafts-main {
+    background: linear-gradient(to bottom, #dc3545 65%, transparent 50%);
 }
 
 .inc-attractions-main h1,
 .inc-experience-main h1,
-.inc-experience2-main h1 {
+.inc-crafts-main h1 {
     font-weight: bolder;
     /* font-size: 4vw; */
+}
+
+.no-underline {
+    text-decoration: none !important;
+    color: inherit;
 }
 
 .inc-attractions {
@@ -298,7 +306,7 @@ body {
 
 .inc-attractions-card,
 .inc-experience-card,
-.inc-experience2-card,
+.inc-crafts-card,
 .inc-home-page-month-card {
     box-sizing: border-box;
     padding: 5px;
@@ -426,7 +434,7 @@ body {
     /* Extra small screens (xs) */
     .inc-attractions-main,
     .inc-experience-main,
-    .inc-experience2-main {
+    .inc-crafts-main {
         padding: 3.5vw;
     }
 }
@@ -435,8 +443,8 @@ body {
 
     /* Medium screens (md) */
     .inc-attractions-main,
-    .inc-experience-main, 
-    .inc-experience2-main {
+    .inc-experience-main,
+    .inc-crafts-main {
         padding: 3.5vw;
     }
 
@@ -446,8 +454,8 @@ body {
 
     /* Large screens (lg) */
     .inc-attractions-main,
-    .inc-experience-main, 
-    .inc-experience2-main {
+    .inc-experience-main,
+    .inc-crafts-main {
         padding: 3.5vw;
     }
 }
@@ -456,8 +464,8 @@ body {
 
     /* Large screens (lg) */
     .inc-attractions-main,
-    .inc-experience-main, 
-    .inc-experience2-main {
+    .inc-experience-main,
+    .inc-crafts-main {
         padding: 7vw;
     }
 
@@ -489,13 +497,11 @@ body {
 
 .city-page-content h3 {
     font-weight: bold;
-    margin-bottom: 10px;
-
+    margin-bottom: 10px
 }
 
 .city-page-map {
     transform: translateY(-5vh);
-
 }
 
 .city-page-map>* {
@@ -505,7 +511,6 @@ body {
 .city-page-content-map {
     display: flex;
     justify-content: center;
-
 }
 
 @media (max-width: 576px) {
@@ -539,4 +544,29 @@ body {
 
 .city_page_attractions>div {
     background: none;
+}
+
+.footer {
+    background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/footer-background-image.jpg') no-repeat center center !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.footer div {
+    margin: 0.2rem 0;
+}
+
+.footer h6 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.footer1 {
+    border-bottom: 1px solid;
 }

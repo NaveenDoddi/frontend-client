@@ -64,7 +64,7 @@ function HomePageMonth() {
                                     <div className="inc-home-page-month-card" key={index}>
                                           <Card>
 
-                                                {/* <Card.Img variant="top" style={{ height: "15rem" }} src={place.image} /> */}
+                                                <Card.Img variant="top" style={{ height: "15rem" }} src={place.image}  loading="lazy" alt="image"/>
 
                                                 <Card.ImgOverlay>
 

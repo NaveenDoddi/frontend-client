@@ -3,9 +3,9 @@ import Card from 'react-bootstrap/Card';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { Link } from "react-router-dom";
 function CityPageExperience(props) {
-
+      props.data.map((i, index) =>console.log(i['URL']))
       const settings = {
             // centerMode: true, // Enables centering of the slides
             // centerPadding: "50px", // Amount of the side slides visible (adjust as needed)
@@ -39,15 +39,15 @@ function CityPageExperience(props) {
                   <div className="text-center text-light">
                         <p>─── explore ───</p>
                         <h1>EXPERIENCES</h1>
-
                   </div>
                   <div>
                         <Slider {...settings}>
                               {props.data.map((i, index) =>
+                              <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
                                     <div className="inc-experience-card" key={index}>
                                           <Card key={index} className="inc-experience-image-container">
                                                 {/* <Card.Img variant="top" src={i['image']} loading='lazy'/> */}
-                                                <Card.Body style={{ backgroundColor: "black", color: "white", height: "11rem" }}>
+                                                <Card.Body style={{ backgroundColor: "black", color: "white", height: "11rem"}}>
 
                                                       <Card.Title>
                                                       {i['state'] ?
@@ -64,7 +64,7 @@ function CityPageExperience(props) {
                                                 </Card.Body>
                                           </Card>
                                     </div>
-
+                              </Link>
                               )}
 
                         </Slider>

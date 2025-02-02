@@ -75,7 +75,6 @@ function HomePageMonth() {
                                                       ))}
 
                                                 </Card.ImgOverlay>
-
                                                 <Card.Body>
                                                       <Card.Text>
                                                             <div className="text-start">

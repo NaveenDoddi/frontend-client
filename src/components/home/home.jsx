@@ -11,9 +11,8 @@ import MapSection from "../map/map"
 // import Attractions from "../city/attractions"
 
 import HomePageINC from "./home_page_scraper"
-import CityPageBanner from "../city/city_page_banner"
 import Filter from "../filter"
-import SearchedPlaces from "../searchedPlaces"
+// import SearchedPlaces from "../searchedPlaces"
 import Footer from "../footer/footer"
 function Home() {
       return (

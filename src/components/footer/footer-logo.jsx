@@ -1,6 +1,6 @@
 import React from "react";
-// import 
-
+import { LuLinkedin , LuYoutube } from "react-icons/lu";
+import { BsTwitterX, BsInstagram} from "react-icons/bs";
 function FooterLogo() {
 
       const navBrandStyle = {
@@ -27,6 +27,10 @@ function FooterLogo() {
                   <div>
                         <h6>Follow us</h6>
                         <div>
+                              <LuLinkedin />
+                              <BsInstagram />
+                              <BsTwitterX />
+                              <LuYoutube />
 
                         </div>
                   </div>

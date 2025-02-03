@@ -2,8 +2,6 @@ import React from "react";
 
 import FooterLogo from "./footer-logo";
 import FooterContent from "./footer-centent";
-import { LuLinkedin } from "react-icons/lu";
-import { BsTwitterX, BsInstagram, LuYoutube } from "react-icons/bs";
 
 function Footer() {
       return (

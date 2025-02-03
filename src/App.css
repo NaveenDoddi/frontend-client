@@ -279,7 +279,8 @@ body {
 
 .inc-attractions-main h1,
 .inc-experience-main h1,
-.inc-crafts-main h1 {
+.inc-crafts-main h1,
+.inc-hidden-gems-main h1 {
     font-weight: bolder;
     /* font-size: 4vw; */
 }
@@ -287,15 +288,6 @@ body {
 .no-underline {
     text-decoration: none !important;
     color: inherit;
-}
-
-.inc-attractions {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-
-    padding-top: 4vh;
-
 }
 
 .inc-attractions .slick-slide {
@@ -372,6 +364,36 @@ body {
     font-weight: bold;
     padding: 15%;
     text-align: center;
+}
+
+.inc-hidden-gems-main .slick-track {
+    padding: 6rem 0;
+    border: 1 px solid black;
+}
+
+.inc-hidden-gems-main .slick-center .card {
+
+    transform: scale(1.2);
+    /* Increase size of the active slide */
+    transition: transform 0.4s ease-in-out;
+    z-index: 10;
+    position: relative;
+}
+
+@media (min-width: 480px) {
+    .inc-hidden-gems-main .slick-center .card {
+        transform: scale(1.8);
+    }
+}
+
+.inc-hidden-gems-main .slick-center .card-img-overlay {
+    z-index: 11;
+    font-size: small;
+    position: absolute;
+    /* bottom: 10%; */
+    padding-top: 20%;
+    display: block !important;
+
 }
 
 .slick-track {
@@ -551,10 +573,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-}
-
-.footer div {
-    margin: 0.2rem 0;
 }
 
 .footer h6 {

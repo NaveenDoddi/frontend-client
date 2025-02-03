@@ -561,41 +561,41 @@
                   "URL": "https://www.incredibleindia.gov.in/en/uttarakhand/haridwar/har-ki-pauri"
             }
       ],
-      "hidden-gems": [
+      "hiddenGems": [
             {
                   "name": "Dawar",
                   "place": "Jammu and Kashmir",
                   "text": "The ancient capital of the Dards",
                   "image": "https://s7ap1.scene7.com/is/image/incredibleindia/dawar-jammu-and-kashmir-rural-hero?qlt=82&ts=1726643529094",
-                  "Url": "https://www.incredibleindia.gov.in/en/rural-tourism/dawar"
+                  "URL": "https://www.incredibleindia.gov.in/en/rural-tourism/dawar"
             },
             {
                   "name": "Sarmoli",
                   "place": "Uttarakhand",
                   "text": "The enchanting Himalayan haven",
                   "image": "https://s7ap1.scene7.com/is/image/incredibleindia/pithoragarh-rural-hero?qlt=82&ts=1726643529094",
-                  "Url": "https://www.incredibleindia.gov.in/en/rural-tourism/sarmoli"
+                  "URL": "https://www.incredibleindia.gov.in/en/rural-tourism/sarmoli"
             },
             {
                   "name": "Reiek",
                   "place": "Mizoram",
                   "text": "The home of majestic misty mountains!",
                   "image": "https://s7ap1.scene7.com/is/image/incredibleindia/reiek-mountain-reiek-mizoram-rural-hero?qlt=82&ts=1727162177885",
-                  "Url": "https://www.incredibleindia.gov.in/en/rural-tourism/reiek"
+                  "URL": "https://www.incredibleindia.gov.in/en/rural-tourism/reiek"
             },
             {
                   "name": "Kanthalloor",
                   "place": "Kerala",
                   "text": "Kashmir of Kerala",
                   "image": "https://s7ap1.scene7.com/is/image/incredibleindia/kanthalloor-village-kerala-rural-hero?qlt=82&ts=1726643529094",
-                  "Url": "https://www.incredibleindia.gov.in/en/rural-tourism/kanthalloor"
+                  "URL": "https://www.incredibleindia.gov.in/en/rural-tourism/kanthalloor"
             },
             {
                   "name": "Madla",
                   "place": "Madhya Pradesh",
                   "text": "A gateway to nature's abode",
                   "image": "https://s7ap1.scene7.com/is/image/incredibleindia/madla-village-mp-rural-hero?qlt=82&ts=1726643529094",
-                  "Url": "https://www.incredibleindia.gov.in/en/rural-tourism/madla"
+                  "URL": "https://www.incredibleindia.gov.in/en/rural-tourism/madla"
             }
       ],
       "experiences1": [

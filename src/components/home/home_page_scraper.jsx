@@ -4,6 +4,8 @@ import Attractions from '../city/attractions';
 import CityPageExperience from '../city/city_page_experience';
 import HomePageExperience from './home_page_experiences';
 
+import  HomePageHidden from './home_page_hidden';
+
 import data from '../json/home_page.json'
 const homePageINC = () => {
       
@@ -17,6 +19,9 @@ const homePageINC = () => {
                   </div>
                   <div>
                         <HomePageExperience data={data.experiences1} />
+                  </div>
+                  <div>
+                        <HomePageHidden data = {data.hiddenGems}/>
                   </div>
             </div>
 

@@ -27,10 +27,13 @@ function FooterLogo() {
                   <div>
                         <h6>Follow us</h6>
                         <div>
+                              <div>
                               <LuLinkedin />
                               <BsInstagram />
                               <BsTwitterX />
                               <LuYoutube />
+                              </div>
+                              
 
                         </div>
                   </div>

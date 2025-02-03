@@ -33,7 +33,7 @@ function LandVedio() {
                   currentVideo.addEventListener("ended", onEnded);
                   return () => currentVideo.removeEventListener("ended", onEnded);
             }
-      }, [index, mute]);
+      }, [index, mute, videos.length]);
 
       const toggleMute = () => {
             setMute((prevMute) => !prevMute);

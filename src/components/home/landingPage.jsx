@@ -19,7 +19,9 @@ function Landing() {
                               />
                               <Carousel.Caption>
                                     <h1>Taj Mahal</h1>
-                                    <p>The Taj Mahal is known for its stunning architecture and historical significance..</p>
+                                    <p>
+                                          The Taj Mahal is known for its stunning architecture and historical significance..
+                                    </p>
                               </Carousel.Caption>
                         </Carousel.Item>
 

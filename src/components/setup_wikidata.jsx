@@ -1,4 +1,4 @@
-import React, { useEffect, useState  } from "react"
+import React, { useEffect, useState } from "react"
 import axios from 'axios';
 import SearchedPlaces from "./searchedPlaces";
 const cheerio = require('cheerio');
@@ -10,11 +10,7 @@ function SetupWikiData(props) {
       useEffect(() => {
             const fetchData = async (place) => {
                   try {
-                        const response = await axios.get('http://localhost:5000/api/wiki', {
-                              params: {
-                                    placeName: place, // Pass the parameter here
-                              },
-                        });
+                        const response = await axios.get(`http://localhost:5000/api/search/${place}`);
 
                         const $ = cheerio.load(response.data);
 
@@ -63,21 +59,27 @@ function SetupWikiData(props) {
                               }
                         }
 
-                        console.log(city_map_img)
-
                         var nicknames = []
                         $('div.nickname').each((index, element) => {
                               nicknames.push($(element).text());
                         });
 
                         data = {
-                              'info' : info,
-                              'nicknames' : nicknames,
+                              'info': info,
+                              'nicknames': nicknames,
                               'city_map_img': city_map_img,
-                              'images' : imageUrls,
-                              'paras' : pTags,
-                              'coordinates':[$('span.latitude').text(),$('span.longitude').text()]
+                              'images': imageUrls,
+                              'paras': pTags,
+                              'coordinates': [$('span.latitude').text(), $('span.longitude').text()],
+                              
+                              // 'name': inc_city_hero_banner_text,
+                              // 'images': inc_city_hero_banner_imageUrls,
+                              // 'travel': inc_city_transportation_arr.splice(0, 2),
+                              // 'city_map': JSON.parse(inc_city_map[0]),
+                              // 'weather': inc_city_map_weather_arr,
+                              // 'content': inc_content_paras_arr
                         }
+                        // localStorage.setItem("tourism_wiki", JSON.stringify(data))
 
                         setWikiData(data);
 
@@ -89,22 +91,22 @@ function SetupWikiData(props) {
 
             };
 
-            fetchData(props.placeName)
+            fetchData('Delhi')
 
-      }, [props.placeName]);
+      }, []);
 
-      
-      if (!loading){
-            
+
+      if (!loading) {
             localStorage.setItem('tourism_wiki', JSON.stringify(wikiData))
       }
 
-      if (loading){
+      if (loading) {
             return <p>Loading...</p>
-      } else{
-      return (
-            <SearchedPlaces data = {wikiData}/>
-      )}
+      } else {
+            return (
+                  <SearchedPlaces data={wikiData} />
+            )
+      }
 
 }
 

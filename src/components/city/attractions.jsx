@@ -56,7 +56,7 @@ const Attractions = (props) => {
                               <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
                                     <div className="inc-attractions-card" key={index} onClick={()=>navigate(`/city_page?${i['URL'].split('en')[1]}`)}>
                                           <div className="inc-attractions-image-container">
-                                                {/* <img src={i['image']} alt="" loading='lazy'/> */}
+                                                <img src={i['image']} alt="" loading='lazy'/>
                                                 <div className="inc-attractions-heading">
                                                       {i['name']}
                                                 </div>

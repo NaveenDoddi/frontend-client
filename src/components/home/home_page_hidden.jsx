@@ -45,7 +45,7 @@ const HomePageHidden = (props) => {
                               <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
                                     <div className="inc-hidden-gems" key={index} >
                                           <Card style={{ borderRadius: '1rem' }}>
-                                                <Card.Img variant="top" style={{ borderRadius: '1rem' }} src={i['image']} loading="lazy" alt="image" />
+                                                <Card.Img variant="top" style={{ borderRadius: '1rem', border:"none !important" }} src={i['image']} loading="lazy" alt="image" />
 
                                                 <Card.ImgOverlay style={{ display: "none" }}>
                                                       <div>

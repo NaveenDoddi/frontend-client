@@ -3,7 +3,7 @@ import "leaflet/dist/leaflet.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Change here
 
 import Home from './components/home/home';
-import CityPage from "./components//city/city_page";
+import CityPage from "./components/city/city_page";
 
 function App() {
     return (

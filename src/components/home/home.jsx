@@ -11,12 +11,14 @@ import MapSection from "../map/map"
 // import Attractions from "../city/attractions"
 
 import HomePageINC from "./home_page_scraper"
-import Filter from "../filter"
-// import SearchedPlaces from "../searchedPlaces"
+import Filter from "../filter";
+import SetupWikiData from "../setup_wikidata"
 import Footer from "../footer/footer"
 function Home() {
       return (
             <div>
+                  {/* <SetupWikiData /> */}
+
                   <Header />
                   
                   <LandVedio />

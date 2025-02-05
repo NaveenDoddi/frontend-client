@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 // import { IoSunnyOutline, IoPartlySunnyOutline } from "react-icons/io5";
 // import { MdOutlineSevereCold } from "react-icons/md";
 // import { TiWeatherWindyCloudy } from "react-icons/ti";
-
+import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
 
 function HomePageMonth() {
 
@@ -23,6 +23,8 @@ function HomePageMonth() {
             autoplay: true,
             autoplaySpeed: 3000,
             infinite: true,
+            prevArrow: <CustomPrevArrow />,
+            nextArrow: <CustomNextArrow />,
             // arrows: false, 
             responsive: [
                   {
@@ -49,21 +51,20 @@ function HomePageMonth() {
 
       const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
       const d = new Date();
-      let month = months[d.getMonth()]
-
+      // let month = months[d.getMonth()]
+      let month = months[0]
       return (
-            <div className="home-page-month">
+            <div className="home-page-month mb-5">
 
                   <div>
                         <h1 className="fw-bold text-start fs-1">Places To Visit This {month.toUpperCase()}</h1>
                   </div>
 
-                  <div className="home-page-month-items" style={{height:"34rem"}}>
+                  <div className="home-page-month-items" style={{height:"34rem", position: "relative", paddingBottom:"150px" }}>
                         <Slider {...settings} >
                               {data[month].map((place, index) => (
                                     <div className="inc-home-page-month-card" key={index}>
                                           <Card>
-
                                                 <Card.Img variant="top" style={{ height: "15rem" }} src={place.image}  loading="lazy" alt="image"/>
 
                                                 <Card.ImgOverlay>
@@ -102,6 +103,10 @@ function HomePageMonth() {
                               ))}
                         </Slider>
 
+                  </div>
+
+                  <div className="text-center">
+                        {/* <button className="btn discover-more-btn">Discover</button> */}
                   </div>
             </div>
       )

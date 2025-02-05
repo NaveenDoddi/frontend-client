@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
+
 function CityPageExperience(props) {
       props.data.map((i, index) =>console.log(i['URL']))
       const settings = {
@@ -14,6 +16,8 @@ function CityPageExperience(props) {
             autoplay: true,
             autoplaySpeed: 3000,
             infinite: true,
+            prevArrow: <CustomPrevArrow />,
+            nextArrow: <CustomNextArrow />,
             // arrows: false, 
             responsive: [
       
@@ -40,13 +44,13 @@ function CityPageExperience(props) {
                         <p>─── explore ───</p>
                         <h1>EXPERIENCES</h1>
                   </div>
-                  <div>
+                  <div style={{ position: "relative", paddingBottom:"50px" }}>
                         <Slider {...settings}>
                               {props.data.map((i, index) =>
                               <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
                                     <div className="inc-experience-card" key={index}>
                                           <Card key={index} className="inc-experience-image-container">
-                                                {/* <Card.Img variant="top" src={i['image']} loading='lazy'/> */}
+                                                <Card.Img variant="top" src={i['image']} loading='lazy'/>
                                                 <Card.Body style={{ backgroundColor: "black", color: "white", height: "11rem"}}>
 
                                                       <Card.Title>

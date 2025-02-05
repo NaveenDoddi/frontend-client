@@ -6,7 +6,7 @@ import FooterContent from "./footer-centent";
 function Footer() {
       return (
 
-            <div className="footer p-5 bg-dark text-light ">
+            <div className="footer bg-dark text-light">
 
                   <div className="footer1 row">
                         <div className="col-md-12 col-lg-3">
@@ -20,7 +20,7 @@ function Footer() {
                         </div>
                   </div>
 
-                  <div className="footer2 text-center m-3">
+                  <div className="footer2 text-center">
                         <p>
                               Terms of Use
                               <span>&nbsp; &nbsp; | &nbsp; &nbsp;</span>

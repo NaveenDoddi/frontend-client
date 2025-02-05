@@ -1,6 +1,6 @@
 import React from "react";
-import { LuLinkedin , LuYoutube } from "react-icons/lu";
-import { BsTwitterX, BsInstagram} from "react-icons/bs";
+import { LuLinkedin, LuYoutube } from "react-icons/lu";
+import { BsTwitterX, BsInstagram } from "react-icons/bs";
 function FooterLogo() {
 
       const navBrandStyle = {
@@ -20,21 +20,18 @@ function FooterLogo() {
       };
       return (
             <div className="text-center">
-                  <div  style={navBrandStyle}>
+                  <div style={navBrandStyle}>
                         E<span style={redAccentStyle}>xplore </span>I<span style={redAccentStyle}>NDIA</span>
                   </div>
 
                   <div>
                         <h6>Follow us</h6>
-                        <div>
-                              <div>
-                              <LuLinkedin />
-                              <BsInstagram />
-                              <BsTwitterX />
-                              <LuYoutube />
-                              </div>
-                              
 
+                        <div className="d-flex justify-content-evenly pb-5">
+                              <div><BsInstagram /></div>
+                              <div><LuYoutube /></div>
+                              <div><BsTwitterX /></div>
+                              <div><LuLinkedin /></div>
                         </div>
                   </div>
 

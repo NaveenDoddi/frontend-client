@@ -4,17 +4,20 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
 
 const Attractions = (props) => {
 
       const settings = {
             centerMode: true, // Enables centering of the slides
-            centerPadding: "50px", // Amount of the side slides visible (adjust as needed)
+            // centerPadding: "50px", // Amount of the side slides visible (adjust as needed)
             slidesToShow: 3, // Number of slides to show in the center
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 2000,
             infinite: true,
+            prevArrow: <CustomPrevArrow />,
+            nextArrow: <CustomNextArrow />,
             // arrows: false, 
             responsive: [
                   {
@@ -50,24 +53,30 @@ const Attractions = (props) => {
                         <h1>ATTRACTIONS</h1>
                         <p>─── worth a thousand stories ───</p>
                   </div>
-                  <Slider {...settings}>
-                        {props.data.map((i, index) =>
 
-                              <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
-                                    <div className="inc-attractions-card" key={index} onClick={()=>navigate(`/city_page?${i['URL'].split('en')[1]}`)}>
-                                          <div className="inc-attractions-image-container">
-                                                <img src={i['image']} alt="" loading='lazy'/>
-                                                <div className="inc-attractions-heading">
-                                                      {i['name']}
+                  <div style={{ position: "relative", paddingBottom:"50px"}}>
+                        <Slider {...settings}>
+                              {props.data.map((i, index) =>
+
+                                    <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
+                                          <div className="inc-attractions-card" key={index} onClick={() => navigate(`/city_page?${i['URL'].split('en')[1]}`)}>
+                                                <div className="inc-attractions-image-container">
+                                                      <img src={i['image']} alt="" loading='lazy' />
+                                                      <div className="inc-attractions-heading">
+                                                            {i['name']}
+                                                      </div>
                                                 </div>
+
                                           </div>
+                                    </Link>
 
-                                    </div>
-                              </Link>
+                              )}
 
-                        )}
-
-                  </Slider>
+                        </Slider>
+                  </div>
+                  <div className="text-center m-4">
+                        <button className="discover-more-btn btn"> Discover More </button>
+                  </div>
             </div>
       );
 };

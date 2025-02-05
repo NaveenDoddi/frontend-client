@@ -53,7 +53,7 @@ function Header() {
                 className={`navbar ${scrolling ? "scrolled" : ""}`}
                 style={{
                     transition: "background-color 0.3s ease",
-                    backgroundColor: scrolling ? "rgba(0, 0, 0, 0.9)" : "rgba(0, 0, 0, 0)"
+                    backgroundColor: scrolling ? "rgba(0, 0, 0, 0.9)" : "rgba(0, 0, 0, 0.1)"
                 }}
             >
                 <Container fluid >

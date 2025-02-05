@@ -34,7 +34,7 @@ function MapSection() {
                               {data.mapdata.map((place, index) => {
                                     return (
                                           <div className="placeCard" key={index} onClick={() => locateOnMap(place)}>
-                                                {/* <img src={place.image} alt="" loading="lazy" /> */}
+                                                <img src={place.image} alt="" loading="lazy" />
                                                 <h6>{place.name}</h6>
                                                 <p>{place.description}</p>
                                           </div>

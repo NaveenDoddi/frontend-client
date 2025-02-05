@@ -7,6 +7,8 @@ import { useNavigate } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import { FaLocationDot } from "react-icons/fa6";
 
+import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
+
 const HomePageHidden = (props) => {
 
       const settings = {
@@ -18,6 +20,8 @@ const HomePageHidden = (props) => {
             autoplaySpeed: 2000,
             infinite: true,
             focusOnSelect: true,
+            prevArrow: <CustomPrevArrow />,
+            nextArrow: <CustomNextArrow />,
             responsive: [
 
                   {
@@ -39,36 +43,40 @@ const HomePageHidden = (props) => {
                         <p>─── Uncover India's ───</p>
                         <h1>Lesser Known Wonders</h1>
                   </div>
-                  <Slider {...settings}>
-                        {props.data.map((i, index) =>
+                  <div style={{ position: "relative", paddingBottom: "50px" }}>
 
-                              <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
-                                    <div className="inc-hidden-gems" key={index} >
-                                          <Card style={{ borderRadius: '1rem' }}>
-                                                <Card.Img variant="top" style={{ borderRadius: '1rem', border:"none !important" }} src={i['image']} loading="lazy" alt="image" />
 
-                                                <Card.ImgOverlay style={{ display: "none" }}>
-                                                      <div>
-                                                            <h6 className="fw-bold text-warning">
-                                                                  <span>{i['name']}</span>
-                                                            </h6>
-                                                            <div className="d-flex justify-content-between text-light">
-                                                                  <span  style={{fontSize:"0.4rem", fontWeight:"bold"}}>{i['text']}</span>
-                                                                  <span  style={{fontSize:"0.4rem", fontWeight:"bold"}}> <FaLocationDot  style={{fontSize:"0.5rem", fontWeight:"bold"}} className="text-danger" /> {i['place']}</span>
+                        <Slider {...settings}>
+                              {props.data.map((i, index) =>
+
+                                    <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
+                                          <div className="inc-hidden-gems" key={index} >
+                                                <Card style={{ borderRadius: '1rem' }}>
+                                                      <Card.Img variant="top" style={{ borderRadius: '1rem', border: "none !important" }} src={i['image']} loading="lazy" alt="image" />
+
+                                                      <Card.ImgOverlay style={{ display: "none" }}>
+                                                            <div>
+                                                                  <h6 className="fw-bold text-warning">
+                                                                        <span>{i['name']}</span>
+                                                                  </h6>
+                                                                  <div className="d-flex justify-content-between text-light">
+                                                                        <span style={{ fontSize: "0.4rem", fontWeight: "bold" }}>{i['text']}</span>
+                                                                        <span style={{ fontSize: "0.4rem", fontWeight: "bold" }}> <FaLocationDot style={{ fontSize: "0.5rem", fontWeight: "bold" }} className="text-danger" /> {i['place']}</span>
+                                                                  </div>
+
                                                             </div>
 
-                                                      </div>
+                                                      </Card.ImgOverlay>
 
-                                                </Card.ImgOverlay>
+                                                </Card>
+                                          </div>
 
-                                          </Card>
-                                    </div>
+                                    </Link>
 
-                              </Link>
+                              )}
 
-                        )}
-
-                  </Slider>
+                        </Slider>
+                  </div>
             </div>
       );
 };

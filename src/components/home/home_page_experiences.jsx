@@ -3,8 +3,9 @@ import Card from 'react-bootstrap/Card';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import { Link } from "react-router-dom";
+import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
+
 
 function HomePageExperience(props) {
 
@@ -16,6 +17,8 @@ function HomePageExperience(props) {
             autoplay: true,
             autoplaySpeed: 3000,
             infinite: true,
+            prevArrow: <CustomPrevArrow />,
+            nextArrow: <CustomNextArrow />,
             // arrows: false, 
             responsive: [
 
@@ -45,7 +48,7 @@ function HomePageExperience(props) {
                         <p>─── of timeless tradition ───</p>
 
                   </div>
-                  <div>
+                  <div style = {{ position: "relative", paddingBottom: "50px" }}>
                         <Slider style={{ paddingTop: '2vh' }} {...settings}>
                               {props.data.map((i, index) =>
                                     <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
@@ -67,7 +70,7 @@ function HomePageExperience(props) {
 
                               )}
 
-                                    </Slider>
+                        </Slider>
                   </div>
 
                   <div className="text-center m-4">

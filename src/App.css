@@ -39,6 +39,10 @@ body {
         font-size: small;
     }
 
+    .home-page-landing-video .carousel-indicators{
+        font-size: 0.1;
+    }
+
     h1 {
         font-size: 3.5rem;
         font-weight: 900 !important;
@@ -215,14 +219,19 @@ body {
 
 .home-page-landing-video .carousel-indicators {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
+    overflow-x: scroll;
+    padding: 0px;
 }
 
-.home-page-landing-video button {
+.home-page-landing-video .carousel-indicators .active {
+    color: yellow !important;
+
+}.home-page-landing-video button {
     border: none;
     background: none;
-    color: yellow;
-    letter-spacing: 0.2rem;
+    color: white;
+    letter-spacing: 0.1rem;
 
 }
 
@@ -371,7 +380,7 @@ body {
 
 .inc-hidden-gems-main .slick-center .card {
 
-    transform: scale(1.2);
+    transform: scale(1.3);
     /* Increase size of the active slide */
     transition: transform 0.4s ease-in-out;
     z-index: 10;

@@ -4,12 +4,11 @@ import { GoMute, GoUnmute } from "react-icons/go";
 
 function LandVedio() {
       const videos = [
-            // { src: "https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/India-360-v2.mp4", label: "India 360" },
+            { src: "https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/India-360-v2.mp4", label: "India 360" },
+            { src: "https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/Adventure.mp4", label: "Adventure" },
             // { src: "https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/Nature.mp4", label: "Nature" },
-            { src: "/videos/Adventure.mp4", label: "India 360" },
-            { src: "/videos/video.mp4", label: "India 360" },
-            { src: "/videos/Adventure.mp4", label: "India 360" },
-            // { src: "/https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/India-360-v1.mp4", label: "Explore" }
+            { src: "https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/Heritage.mp4", label: "Heritage" },
+            { src: "https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/Spiritual.mp4", label: "Spiritual" },
 
       ];
 
@@ -18,8 +17,15 @@ function LandVedio() {
       const videoRefs = useRef([]);
 
       useEffect(() => {
-            const currentVideo = videoRefs.current[index];
+            // Pause all videos first
+            videoRefs.current.forEach((video, idx) => {
+                  if (video && idx !== index) {
+                        video.pause(); // Pause the video if it's not the active one
+                  }
+            });
 
+            // Play the active video
+            const currentVideo = videoRefs.current[index];
             if (currentVideo) {
                   currentVideo.muted = mute;
                   currentVideo.play().catch(() => { }); // Prevent play() errors
@@ -79,15 +85,18 @@ function LandVedio() {
 
                   {/* Video Indicators */}
                   <div className="carousel-indicators">
-                        {videos.map((video, idx) => (
-                              <button
-                                    key={idx}
-                                    className={index === idx ? "active" : ""}
-                                    onClick={() => setIndex(idx)}
-                              >
-                                    {video.label}
-                              </button>
-                        ))}
+                        {/* <div> */}
+                              {videos.map((video, idx) => (
+                                    <button
+                                          key={idx}
+                                          className={index === idx ? "active btn btn-sm" : "btn btn-sm"}
+                                          onClick={() => setIndex(idx)}
+                                    >
+                                          {video.label}
+                                    </button>
+                              ))}
+                        {/* </div> */}
+
                   </div>
             </div>
       );

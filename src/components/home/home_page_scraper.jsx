@@ -18,11 +18,12 @@ const homePageINC = () => {
                         <CityPageExperience data={data.experiences} />
                   </div>
                   <div>
-                        <HomePageExperience data={data.experiences1} />
-                  </div>
-                  <div>
                         <HomePageHidden data = {data.hiddenGems}/>
                   </div>
+                  <div>
+                        <HomePageExperience data={data.experiences1} />
+                  </div>
+                  
             </div>
 
       );

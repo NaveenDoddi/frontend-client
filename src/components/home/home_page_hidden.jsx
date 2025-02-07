@@ -45,7 +45,6 @@ const HomePageHidden = (props) => {
                   </div>
                   <div style={{ position: "relative", paddingBottom: "50px" }}>
 
-
                         <Slider {...settings}>
                               {props.data.map((i, index) =>
 

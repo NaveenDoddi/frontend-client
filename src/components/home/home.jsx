@@ -1,6 +1,6 @@
 
 import React from "react"
-import Header from '../navbar'
+import Header from "../header/navbar"
 import Landing from './landingPage'
 
 
@@ -12,7 +12,6 @@ import MapSection from "../map/map"
 
 import HomePageINC from "./home_page_scraper"
 import Filter from "../filter";
-import SetupWikiData from "../setup_wikidata"
 import Footer from "../footer/footer"
 function Home() {
       return (

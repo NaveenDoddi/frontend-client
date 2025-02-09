@@ -596,3 +596,8 @@ body {
 .footer1 {
     border-bottom: 1px solid;
 }
+
+
+.search-input:focus{
+    border: none;
+}

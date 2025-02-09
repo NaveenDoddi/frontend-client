@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import axios from "axios";
 import { useLocation } from "react-router-dom";
 
-import Header from "../navbar";
+import Header from "../header/navbar";
 import CityPageBanner from "./city_page_banner";
 import CityPageContent from "./city_page_content";
 import LeafletMap from "../map/LeafletMap";

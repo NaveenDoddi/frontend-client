@@ -6,6 +6,8 @@ import { FaAlignRight } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 
 import { useState, useEffect } from 'react';
+import SearchBar from './search';
+import { BiSearch } from 'react-icons/bi';
 
 function Header() {
 
@@ -25,7 +27,7 @@ function Header() {
         color: 'white',
         fontSize: '1rem'
     };
-    
+
     const [scrolling, setScrolling] = useState(false);
 
     const handleScroll = () => {
@@ -59,9 +61,13 @@ function Header() {
                 <Container fluid >
                     <Navbar.Brand href="/"
                         style={navBrandStyle}
-                        >
+                    >
                         E<span style={redAccentStyle}>xplore </span>I<span style={redAccentStyle}>NDIA</span>
                     </Navbar.Brand>
+
+                    <div className="ms-auto">
+                        <SearchBar />
+                    </div>
 
                     <Navbar.Toggle>
                         <FaAlignRight />

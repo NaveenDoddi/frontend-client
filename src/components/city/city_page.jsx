@@ -11,7 +11,7 @@ import CityPageTravel from "./city_page_travel";
 import Attractions from "./attractions";
 import CityPageExperience from "./city_page_experience";
 import Footer from "../footer/footer";
-
+const SERVER_URL = process.env.SERVER;
 function CityPage() {
       const [loading, setLoading] = useState(true);
       const [data, setData] = useState(null);
@@ -24,7 +24,7 @@ function CityPage() {
             const fetchData = async () => {
 
                   try {
-                        const fetchUrl = `http://localhost:5000/api/inc-city/${url}`
+                        const fetchUrl = `https://trail-server.vercel.app/api/inc-city/${url}`
                         console.log(fetchUrl)
                         const response = await axios.get(fetchUrl);
                         setData(response.data);

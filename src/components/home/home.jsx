@@ -21,15 +21,16 @@ function Home() {
                   <Header />
                   
                   <LandVedio />
-                  <Landing />
+                  {/* <Landing /> */}
                   
                   <HomePageMonth />
+
+                  <Filter />
+                  
                   <MapSection />
 
                   <HomePageINC />
                   
-                  <Filter />
-
                   <Footer />
 
             </div>

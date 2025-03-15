@@ -96,7 +96,6 @@ body {
     height: auto;
     border-radius: 5px 0 30px 0;
     line-height: 1;
-
 }
 
 .home-page-month .card-img-overlay .card-text {
@@ -118,15 +117,12 @@ body {
 
 .home-page-month-items .slick-slide {
     padding: 5px;
-
 }
-
 
 /* things to this month ends here */
 
 
 /* mapSection css starts here */
-
 
 .mapSection {
     background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg')no-repeat center center !important;
@@ -298,12 +294,6 @@ body {
     color: inherit;
 }
 
-.inc-attractions .slick-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .inc-attractions-card,
 .inc-experience-card,
 .inc-crafts-card,
@@ -316,8 +306,6 @@ body {
     border-radius: 10px;
 
 }
-
-
 
 .inc-attractions-card:hover,
 .inc-experience-card:hover {
@@ -518,7 +506,6 @@ body {
     font-weight: bold;
     z-index: 10;
 }
-
 
 .city-page-content>div:first-child {
     display: block !important;

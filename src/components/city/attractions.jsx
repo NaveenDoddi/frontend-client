@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
 
 const Attractions = (props) => {
@@ -45,8 +44,7 @@ const Attractions = (props) => {
       };
 
 
-      const navigate = useNavigate();
-
+      props.data.map((i, index) =>console.log(i,i['URL']))
       return (
             <div className="inc-attractions-main">
                   <div className="text-center text-info">
@@ -59,7 +57,7 @@ const Attractions = (props) => {
                               {props.data.map((i, index) =>
 
                                     <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
-                                          <div className="inc-attractions-card" key={index} onClick={() => navigate(`/city_page?${i['URL'].split('en')[1]}`)}>
+                                          <div className="inc-attractions-card" key={index}>
                                                 <div className="inc-attractions-image-container">
                                                       <img src={i['image']} alt="" loading='lazy' />
                                                       <div className="inc-attractions-heading">

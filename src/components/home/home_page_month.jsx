@@ -21,7 +21,7 @@ function HomePageMonth() {
             slidesToShow: 3, // Number of slides to show in the center
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 2000,
             infinite: true,
             prevArrow: <CustomPrevArrow />,
             nextArrow: <CustomNextArrow />,
@@ -54,17 +54,18 @@ function HomePageMonth() {
       // let month = months[d.getMonth()]
       let month = months[0]
       return (
-            <div className="home-page-month mb-5">
+            <div className="home-page-month" style={{marginBottom:"10vh"}}>
 
                   <div>
-                        <h1 className="fw-bold text-start fs-1">Places To Visit This {month.toUpperCase()}</h1>
+                        <h1 className="fw-bold text-start fs-1"> Places To Visit This {month.toUpperCase()} </h1>
                   </div>
 
                   <div className="home-page-month-items" style={{height:"34rem", position: "relative", paddingBottom:"150px" }}>
-                        <Slider {...settings} >
+                        <Slider {...settings}>
                               {data[month].map((place, index) => (
                                     <div className="inc-home-page-month-card" key={index}>
                                           <Card>
+
                                                 <Card.Img variant="top" style={{ height: "15rem" }} src={place.image}  loading="lazy" alt="image"/>
 
                                                 <Card.ImgOverlay>
@@ -92,14 +93,13 @@ function HomePageMonth() {
                                                                   <div className=""> {place.temperature} </div>
                                                             </div>
 
-                                                            <Button size="sm" style={{ backgroundColor: 'red', padding: "0.4rem 1rem", fontWeight: "bold", borderRadius: "1rem" }}> Explore </Button>
+                                                            <Button size="sm" style={{ backgroundColor: 'red', padding: "0.4rem 1rem", fontWeight: "bold", borderRadius: "1rem", border:"none" }}> Explore </Button>
 
                                                       </Card.Text>
 
                                                 </Card.Body>
                                           </Card>
                                     </div>
-
                               ))}
                         </Slider>
 

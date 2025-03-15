@@ -55,11 +55,13 @@ function LandVedio() {
                               <Carousel.Item key={idx}>
                                     <video
                                           ref={(el) => (videoRefs.current[idx] = el)}
-                                          className="d-block w-100"
+                                          className="d-block w-100 h-100"
                                           src={video.src}
                                           playsInline
                                           autoPlay
                                           muted={mute}
+                                          
+                                          style={{minHeight:"450px", objectFit: "cover"}}
                                     />
                               </Carousel.Item>
                         ))}

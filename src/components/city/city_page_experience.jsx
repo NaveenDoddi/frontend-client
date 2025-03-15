@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
 
 function CityPageExperience(props) {
-      props.data.map((i, index) =>console.log(i['URL']))
       const settings = {
             // centerMode: true, // Enables centering of the slides
             // centerPadding: "50px", // Amount of the side slides visible (adjust as needed)
@@ -39,6 +38,7 @@ function CityPageExperience(props) {
       };
 
       return (
+            
             <div className="inc-experience-main">
                   <div className="text-center text-light">
                         <p>─── explore ───</p>
@@ -47,7 +47,8 @@ function CityPageExperience(props) {
                   <div style={{ position: "relative", paddingBottom:"50px" }}>
                         <Slider {...settings}>
                               {props.data.map((i, index) =>
-                              <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
+                              
+                              <Link  to= {i["URL"]?`/city_page?${i['URL'].split('en/')[1]}`:""} className="no-underline">
                                     <div className="inc-experience-card" key={index}>
                                           <Card key={index} className="inc-experience-image-container">
                                                 <Card.Img variant="top" src={i['image']} loading='lazy'/>
@@ -76,8 +77,6 @@ function CityPageExperience(props) {
                   <div className="text-center m-4">
                         <button className="discover-more-btn btn"> Discover More </button>
                   </div>
-
-
             </div>
       )
 }

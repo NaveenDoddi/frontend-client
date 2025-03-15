@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import SetupWikiData from './setup_wikidata';
+import { useNavigate } from "react-router-dom";
 
 function Filter(children) {
-
-      const [country, setState] = useState("Andhra Pradesh")
+      const navigate = useNavigate();
+      const [state, setState] = useState(null)
       const [place, setPlace] = useState(null)
       var list = {
             'Andhra Pradesh': ["Tirupati", "Araku Valley", "Vishakhapatnam", "Amaravati", "Lepakshi", "Horsley Hills", "Srikalahasti"],
@@ -23,7 +24,6 @@ function Filter(children) {
             'Manipur': ["Loktak Lake", "Imphal", "Kangla Fort", "Keibul Lamjao National Park", "Ukhrul", "Andro Village", "Thoubal"],
             'Meghalaya': ["Cherrapunji", "Shillong", "Mawlynnong", "Living Root Bridges", "Nongriat", "Umiam Lake", "Dawki"],
             'Mizoram': ["Aizawl", "Dampa Tiger Reserve", "Champhai", "Lunglei", "Reiek", "Vantawng Falls", "Hmuifang"],
-            // fkdfj
             'Nagaland': ["Kohima", "Dzükou Valley", "Dimapur", "Mon", "Shilloi Lake", "Khonoma Village", "Japfu Peak"],
             'Odisha': ["Konark Sun Temple", "Puri", "Chilika Lake", "Bhubaneswar", "Dhauli", "Simlipal National Park", "Raghurajpur"],
             'Punjab': ["Golden Temple", "Jallianwala Bagh", "Wagah Border", "Anandpur Sahib", "Patiala", "Ranjit Sagar Dam", "Kapurthala"],
@@ -53,17 +53,17 @@ function Filter(children) {
 
                         <select className='col-12 col-md-6' onChange={(e) => setPlace(e.target.value)}>
                               <option>Select Place</option>
-                              {list[country].map((city, key) => {
+                              { state ? list[state].map((city, key) => {
                                     return (<option key={key}>{city}</option>)
-                              })}
+                              }):""}
                         </select>
 
-                        <div className='col-12 d-flex justify-content-center'>
+                        {/* <div className='col-12 d-flex justify-content-center'>
                               <input type="text" id="" placeholder='Search By Place' onChange={(e) => setPlace(e.target.value)} />
-                        </div>
+                        </div> */}
 
                   </div>
-                  {place && <SetupWikiData placeName = {place} />}
+                  {place && navigate(`/city_page?${state.split(" ").join("-").toLowerCase()}/${place.toLowerCase()}`)}
             </div>
       )
 }

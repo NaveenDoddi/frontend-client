@@ -24,9 +24,11 @@ const CityPageBanner = ({ images, names }) => {
                                           loading='lazy'
                                           alt={`Slide ${index}`}
                                           width="100%"
+                                          
                                           style={{
                                                 opacity: "0.9",
                                                 filter: "brightness(0.8) contrast(0.8) saturate(0.9)",
+                                                minHeight:"400px"
                                           }}
                                     />
                                     <Carousel.Caption style={{ position: 'absolute', top: '30%', left: '10%', textAlign:"left", display: index === 0 ? 'block' : 'none' }}>

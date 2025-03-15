@@ -18,24 +18,27 @@ function CityPage() {
 
       const location = useLocation();
       const url = location.search.substring(1);
+
+      useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top when URL changes
+      }, [location.search]);
       
       
       useEffect(() => {
             const fetchData = async () => {
 
                   try {
-                        const fetchUrl = `https://trail-server.vercel.app/api/inc-city/${url}`
-                        console.log(fetchUrl)
+                        // const fetchUrl = `https://trail-server.vercel.app/api/inc-city/${url}`
+                        const fetchUrl = `http://localhost:5000/api/inc-city/${url}`
                         const response = await axios.get(fetchUrl);
                         setData(response.data);
                         setLoading(false);
-                        console.log(response.data.experiences); // For debugging the data structure
                   } catch (error) {
                         console.error("Error fetching data:", error);
                         setLoading(false);
                   }
             };
-
+            
             fetchData();
 
       }, [url]);

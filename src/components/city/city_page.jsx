@@ -28,8 +28,8 @@ function CityPage() {
             const fetchData = async () => {
 
                   try {
-                        // const fetchUrl = `https://trail-server.vercel.app/api/inc-city/${url}`
-                        const fetchUrl = `http://localhost:5000/api/inc-city/${url}`
+                        const fetchUrl = `https://trail-server.vercel.app/api/inc-city/${url}`
+                        // const fetchUrl = `http://localhost:5000/api/inc-city/${url}`
                         const response = await axios.get(fetchUrl);
                         setData(response.data);
                         setLoading(false);

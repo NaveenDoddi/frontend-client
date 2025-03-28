@@ -25,7 +25,6 @@ function Home() {
                   {/* <Landing /> */}
                   <CartoonsDiv />
                   
-                  
                   <HomePageMonth />
 
                   <Filter />

@@ -2,11 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from "react-router-dom";
 import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
 
-const Attractions = (props) => {
-
+const CartoonsDiv = () => {
       const settings = {
             centerMode: true, // Enables centering of the slides
             // centerPadding: "50px", // Amount of the side slides visible (adjust as needed)
@@ -46,25 +44,25 @@ const Attractions = (props) => {
       return (
             <div className="inc-attractions-main">
                   <div className="text-center text-info">
-                        <h1>ATTRACTIONS</h1>
-                        <p>─── worth a thousand stories ───</p>
+                        <h1>India Unveiled</h1>
+                        <p>─── A Tapestry of Travel & Tradition ───</p>
                   </div>
 
-                  <div style={{ position: "relative", paddingBottom:"50px"}}>
+                  <div style={{ position: "relative", paddingBottom: "50px" }}>
                         <Slider {...settings}>
-                              {props.data.map((i, index) =>
+                              {[1,2,3,4,5,6,7,8,9,10,11,12,13,14].map((i, index) =>
 
-                                    <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
-                                          <div className="inc-attractions-card" key={index}>
-                                                <div className="inc-attractions-image-container">
-                                                      <img src={i['image']} alt="" loading='lazy' />
-                                                      <div className="inc-attractions-heading">
-                                                            {i['name']}
-                                                      </div>
+                                    // <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
+                                    <div className="inc-attractions-card" key={index}>
+                                          <div className="inc-attractions-image-container">
+                                                <img src={`/cartoons/cimage${i}.jpg`} alt="" loading='lazy' />
+                                                <div className="inc-attractions-heading">
+                                                      {/* {i['name']} */}
                                                 </div>
-
                                           </div>
-                                    </Link>
+
+                                    </div>
+                                    // </Link>
 
                               )}
 
@@ -75,6 +73,7 @@ const Attractions = (props) => {
                   </div>
             </div>
       );
-};
 
-export default Attractions;
+}
+
+export default CartoonsDiv

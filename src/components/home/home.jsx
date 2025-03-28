@@ -13,6 +13,7 @@ import MapSection from "../map/map"
 import HomePageINC from "./home_page_scraper"
 import Filter from "../filter";
 import Footer from "../footer/footer"
+import CartoonsDiv from "./cartoons"
 function Home() {
       return (
             <div>
@@ -22,6 +23,7 @@ function Home() {
                   
                   <LandVedio />
                   {/* <Landing /> */}
+                  <CartoonsDiv />
                   
                   <HomePageMonth />
 

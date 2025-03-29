@@ -52,7 +52,7 @@ function HomePageMonth() {
       const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
       const d = new Date();
       // let month = months[d.getMonth()]
-      let month = months[0]
+      let month = months[3]
       return (
             <div className="home-page-month" style={{marginBottom:"10vh"}}>
 
@@ -66,7 +66,7 @@ function HomePageMonth() {
                                     <div className="inc-home-page-month-card" key={index}>
                                           <Card>
 
-                                                <Card.Img variant="top" style={{ height: "15rem" }} src={place.image}  loading="lazy" alt="image"/>
+                                                <Card.Img variant="top" style={{ height: "16rem" }} src={place.image}  loading="lazy" alt="image"/>
 
                                                 <Card.ImgOverlay>
 

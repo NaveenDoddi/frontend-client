@@ -40,12 +40,12 @@ const CartoonsDiv = () => {
                   },
             ],
       };
-
+      
       return (
-            <div className="inc-attractions-main">
+            <div className="inc-attractions-main" style={{background:"none !important"}}>
                   <div className="text-center text-info">
-                        <h1>India Unveiled</h1>
-                        <p>─── A Tapestry of Travel & Tradition ───</p>
+                        <h1 style={{color:"#FE6900"}}>India Unveiled</h1>
+                        <p style={{color:"#A0522D"}}>─── A Tapestry of Travel & Tradition ───</p>
                   </div>
 
                   <div style={{ position: "relative", paddingBottom: "50px" }}>
@@ -68,9 +68,9 @@ const CartoonsDiv = () => {
 
                         </Slider>
                   </div>
-                  <div className="text-center m-4">
+                  {/* <div className="text-center m-4">
                         <button className="discover-more-btn btn"> Discover More </button>
-                  </div>
+                  </div> */}
             </div>
       );
 

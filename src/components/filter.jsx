@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import SetupWikiData from './setup_wikidata';
 import { useNavigate } from "react-router-dom";
 
 function Filter(children) {
@@ -7,7 +6,7 @@ function Filter(children) {
       const [state, setState] = useState(null)
       const [place, setPlace] = useState(null)
       var list = {
-            'Andhra Pradesh': ["Tirupati", "Araku Valley", "Vishakhapatnam", "Amaravati", "Lepakshi", "Horsley Hills", "Srikalahasti"],
+            'Andhra Pradesh': ["Tirupati", "Araku Valley", "Vishakhapatnam", "Amaravati", "Lepakshi", "Horsley Hills", "Srikalahasti", "Srisailam-temple"],
             'Arunachal Pradesh': ["Tawang", "Ziro Valley", "Sela Pass", "Namdapha National Park", "Itanagar", "Bomdila", "Dirang"],
             'Assam': ["Kaziranga National Park", "Majuli", "Manas National Park", "Sivasagar", "Guwahati", "Kamakhya Temple", "Dibrugarh"],
             'Bihar': ["Bodh Gaya", "Nalanda", "Rajgir", "Vaishali", "Patna", "Vikramshila", "Barabar Caves"],
@@ -63,7 +62,7 @@ function Filter(children) {
                         </div> */}
 
                   </div>
-                  {place && navigate(`/city_page?${state.split(" ").join("-").toLowerCase()}/${place.toLowerCase()}`)}
+                  {place && navigate(`/city_page?${state.split(" ").join("-").toLowerCase()}/${place.split(" ").join("-").toLowerCase()}`)}
             </div>
       )
 }

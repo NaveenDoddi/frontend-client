@@ -5,7 +5,7 @@ import markerIcon from "leaflet/dist/images/marker-icon.png";
 function LeafletMap(props) {
       
       useEffect(() => {
-            const map = L.map("map").setView([props.latitude, props.longitute], 5);
+            const map = L.map("map").setView([props.latitude, props.longitute], 6);
 
             L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                   
@@ -23,7 +23,6 @@ function LeafletMap(props) {
             const marker = L.marker([props.latitude, props.longitute]).addTo(map);
             marker.bindPopup(`
                   <div>
-
                         <img src=${props.imageUrl} height=60/>
                   </div>
                   <h6>${props.name}</h6>

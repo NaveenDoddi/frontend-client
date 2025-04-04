@@ -15,8 +15,8 @@ function MapSection() {
 
             <div className="mapSection">
                   <div className="p-4">
-                        <h1>Temple Tales</h1>
-                        <p className="mb-4">Explore the Rich Heritage of India's Shrines</p>
+                        <h1 style={{color:'#FE6900'}}>Temple Tales</h1>
+                        <p style={{color:"#A0522D"}} className="mb-4">Explore the Rich Heritage of India's Shrines</p>
                   </div>
                   <div className="row">
                         <div className="col-12 col-sm-8">
@@ -36,7 +36,7 @@ function MapSection() {
                                           <div className="placeCard" key={index} onClick={() => locateOnMap(place)}>
                                                 <img src={place.image} alt="" loading="lazy" />
                                                 <h6>{place.name}</h6>
-                                                <p>{place.description}</p>
+                                                <p style={{color:"white"}}>{place.description}</p>
                                           </div>
                                     )
 

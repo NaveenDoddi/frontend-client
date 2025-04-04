@@ -110,9 +110,10 @@ body {
 
 .inc-home-page-month-card {
     height: 34rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 0px !important;
-    border-radius: 8px !important;
+    /* border-radius: 8px !important; */
+    /* justify-content: ; */
 }
 
 .home-page-month-items .slick-slide {
@@ -125,10 +126,12 @@ body {
 /* mapSection css starts here */
 
 .mapSection {
-    background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg')no-repeat center center !important;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg')no-repeat center center !important; */
+    background: url('/public/cartoons/cartoonsBG.jpg')no-repeat bottom !important;
+    background-size:cover;
+    background-repeat:repeat-x;
     height: auto;
+    padding: 3rem 0;
 }
 
 .mapSection h6 {
@@ -158,8 +161,8 @@ body {
     }
 
     .mapSection .placeCard img {
-        width: 60vw;
-        height: 25vh;
+        width: 55vw;
+        height: 30vh;
     }
 
 
@@ -263,6 +266,12 @@ body {
 
 
 /* inc-attractions-v1 css starts here */
+.inc-cartoons-main {
+    background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg') no-repeat center center !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
 .inc-attractions-main {
     background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/attraction-bg.jpg') no-repeat center center !important;
     background-size: cover;
@@ -294,6 +303,7 @@ body {
     color: inherit;
 }
 
+.inc-cartoons-card,
 .inc-attractions-card,
 .inc-experience-card,
 .inc-crafts-card,
@@ -301,7 +311,6 @@ body {
     box-sizing: border-box;
     padding: 5px;
     position: relative;
-    cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
 
@@ -311,17 +320,26 @@ body {
 .inc-experience-card:hover {
     cursor: pointer;
     /* box-shadow: 0px 2px 0px 2px rgba(0, 0, 0, 0.5); */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
     transform: translateY(-4vh);
+}
+.inc-cartoons-main .slick-active.slick-current,
+.inc-cartoons-main .slick-active.slick-current:nth-last-of-type(2) {
+    transform: translateY(-4vh);
+    transition: transform 1s ease;
 }
 
 
+
+
+.inc-cartoons-image-container ,
 .inc-attractions-image-container {
     /* min-width: 300px; */
     position: relative;
     border-radius: 10px;
 }
 
+.inc-cartoons-image-container img,
 .inc-attractions-image-container img,
 .inc-experience-image-container img {
     width: 100%;
@@ -336,6 +354,7 @@ body {
     border-radius: 0px;
 }
 
+.inc-cartoons-card div::after 
 .inc-attractions-card div::after {
     content: '';
     position: absolute;
@@ -395,7 +414,7 @@ body {
     margin-top: 4.5vh;
 }
 
-.slick-prev,
+/* .slick-prev,
 .slick-next {
     position: absolute !important;
     bottom: 10px !important;
@@ -415,18 +434,18 @@ body {
 }
 
 .slick-prev {
-    left: 20%;
+    left: 10%;
 }
 
 .slick-next {
-    right: 20%;
+    right: 10%;
 }
 
 .slick-prev:hover,
 .slick-next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    transform: scale(1.1);
-}
+    transform: scale(1.5);
+} */
 
 
 .inc-attractions-heading button {
@@ -551,6 +570,13 @@ body {
     height: auto !important;
     padding: 20px;
     border-bottom: 1px solid black;
+}
+.city_page_travel div:nth-child(3){
+    background-color: red;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
 }
 
 .city_page_travel h6 {

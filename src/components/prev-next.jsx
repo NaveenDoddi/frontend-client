@@ -7,7 +7,7 @@ const CustomPrevArrow = ({ onClick }) => {
                   style={{
                         position: "absolute",
                         bottom: "-40px",
-                        left: "44%",
+                        left: "42%",
                         zIndex: "10",
                         background: "none",
                         border: "none",

@@ -1,4 +1,5 @@
 import React from "react"
+import { useNavigate } from "react-router-dom";
 import data from '../json/monthly_wise_data.json'
 import { MdFlightTakeoff } from "react-icons/md";
 import Button from 'react-bootstrap/Button';
@@ -14,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { CustomNextArrow, CustomPrevArrow } from "../prev-next";
 
 function HomePageMonth() {
+      const navigate = useNavigate()
 
       const settings = {
             // centerMode: true, // Enables centering of the slides
@@ -34,7 +36,7 @@ function HomePageMonth() {
                         },
                   },
                   {
-                        breakpoint: 768, // For small screens
+                        breakpoint: 767, // For small screens
                         settings: {
                               slidesToShow: 2, // Show 2 slides
                         },
@@ -51,22 +53,22 @@ function HomePageMonth() {
 
       const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
       const d = new Date();
-      // let month = months[d.getMonth()]
-      let month = months[3]
+      let month = months[d.getMonth()]
+      // let month = months[3]
       return (
-            <div className="home-page-month" style={{marginBottom:"10vh"}}>
+            <div className="home-page-month" style={{ marginBottom: "10vh" }}>
 
                   <div>
                         <h1 className="fw-bold text-start fs-1"> Places To Visit This {month.toUpperCase()} </h1>
                   </div>
 
-                  <div className="home-page-month-items" style={{height:"34rem", position: "relative", paddingBottom:"150px" }}>
+                  <div className="home-page-month-items" style={{ height: "34rem", position: "relative", paddingBottom: "150px" }}>
                         <Slider {...settings}>
                               {data[month].map((place, index) => (
                                     <div className="inc-home-page-month-card" key={index}>
                                           <Card>
 
-                                                <Card.Img variant="top" style={{ height: "16rem" }} src={place.image}  loading="lazy" alt="image"/>
+                                                <Card.Img variant="top" style={{ height: "16rem" }} src={place.image} loading="lazy" alt="image" />
 
                                                 <Card.ImgOverlay>
 
@@ -93,7 +95,16 @@ function HomePageMonth() {
                                                                   <div className=""> {place.temperature} </div>
                                                             </div>
 
-                                                            <Button size="sm" style={{ backgroundColor: 'red', padding: "0.4rem 1rem", fontWeight: "bold", borderRadius: "1rem", border:"none" }}> Explore </Button>
+                                                            <Button size="sm" 
+                                                            style={
+                                                                  { 
+                                                                        backgroundColor: 'red', padding: "0.4rem 1rem", fontWeight: "bold", borderRadius: "1rem", border: "none" 
+                                                                  }
+                                                            }
+                                                            onClick={()=>navigate(`/city_page?${place.state.split(" ").join("-").toLowerCase()}/${place.name.toLowerCase()}`)}
+                                                            > 
+                                                                  Explore 
+                                                            </Button>
 
                                                       </Card.Text>
 

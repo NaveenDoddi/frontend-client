@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function CityPageContent(props) {
+      console.log(props)
 
       const [readMore, setReadMore] = useState(false)
       const ReadMore = () => {

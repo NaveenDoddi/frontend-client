@@ -21,7 +21,7 @@ function Home() {
 
                   <Header />
                   
-                  <LandVedio />
+                  {/* <LandVedio /> */}
                   {/* <Landing /> */}
                   <CartoonsDiv />
                   

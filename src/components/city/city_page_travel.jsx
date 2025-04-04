@@ -9,7 +9,7 @@ function CityPageTravel(props) {
                         <div>
                               {props.data[0][' Major Airports :'] ?
                                     <div>
-                                          <h6>Nearest Railway Station :</h6>
+                                          <h6>Nearest Airport :</h6>
                                           {props.data[0][' Major Airports :'].map((i) =>
                                                 <p>{i}</p>
                                           )}

@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 
-.mainPageBanner .carousel h1 {
+.mainPageBanner .carousel h1, .mapSection h1 {
     font-family: "myFirstFont";
     font-weight: 500 !important;
 }
@@ -11,7 +11,6 @@ body {
 .mainPageBanner .carousel img {
     height: 40rem;
     width: 100%;
-
 }
 
 .mainPageBanner .carousel p {
@@ -267,11 +266,13 @@ body {
 
 /* inc-attractions-v1 css starts here */
 .inc-cartoons-main {
-    background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg') no-repeat center center !important;
+    background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/itineraries-bg.jpg') no-repeat top !important;
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
+    
 }
+
 .inc-attractions-main {
     background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/background-images/attraction-bg.jpg') no-repeat center center !important;
     background-size: cover;
@@ -323,14 +324,10 @@ body {
     
     transform: translateY(-4vh);
 }
-.inc-cartoons-main .slick-active.slick-current,
-.inc-cartoons-main .slick-active.slick-current:nth-last-of-type(2) {
+.inc-cartoons-main .slick-active.slick-current{
     transform: translateY(-4vh);
     transition: transform 1s ease;
 }
-
-
-
 
 .inc-cartoons-image-container ,
 .inc-attractions-image-container {

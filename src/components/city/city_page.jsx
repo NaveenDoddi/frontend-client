@@ -3,6 +3,8 @@ import axios from "axios";
 import { useLocation } from "react-router-dom";
 
 import Header from "../header/navbar";
+import Loading from "../../loading";
+import ErrorPage from "../../Error";
 import CityPageBanner from "./city_page_banner";
 import CityPageContent from "./city_page_content";
 import LeafletMap from "../map/LeafletMap";
@@ -14,16 +16,17 @@ import Footer from "../footer/footer";
 // const SERVER_URL = process.env.SERVER;
 function CityPage() {
       const [loading, setLoading] = useState(true);
+      const [err, setError] = useState('');
       const [data, setData] = useState(null);
 
       const location = useLocation();
       const url = location.search.substring(1);
 
       useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to top when URL changes
+            window.scrollTo(0, 0); // Scroll to top when URL changes
       }, [location.search]);
-      
-      
+
+
       useEffect(() => {
             const fetchData = async () => {
 
@@ -36,70 +39,73 @@ function CityPage() {
                   } catch (error) {
                         console.error("Error fetching data:", error);
                         setLoading(false);
+                        setError(error.message);
+                        console.log(err)
                   }
             };
-            
+
             fetchData();
 
       }, [url]);
 
-      if (loading) {
-            return <p>Loading...</p>
-      } else {
-            return (
-                  <div className="city_page">
-                        <div>
-                              <Header />
-                        </div>
+      if (loading) return <Loading />
+      if (err) return <ErrorPage err = {err}/>
+      return (
+            <div className="city_page">
+                  <div>
+                        <Header />
+                  </div>
 
-                        <div>
-                              <CityPageBanner names={data.name} images={data.images.slice(0, Math.floor(data.images.length / 2))} />
-                        </div>
+                  <div>
+                        <CityPageBanner names={data.name} images={data.images.slice(0, Math.floor(data.images.length / 2))} />
+                  </div>
 
-                        <div className="row city-page-content-map">
-                              <div className="col-11 col-sm-6 col-md-7 col-lg-8 mt-5">
-                                    <CityPageContent content={data.content} />
-
-                              </div>
-
-                              <div className="col-11 col-sm-5 col-md-4 col-lg-3 city-page-map">
-                                    <LeafletMap
-                                          latitude={data.city_map.position.lat}
-                                          longitute={data.city_map.position.lng}
-                                          description=""
-                                          imageUrl=""
-                                          name={data.city_map.points[0].title}
-                                          state=""
-                                    // description={data.city_map.description}
-                                    // imageUrl={data.city_map.image}
-                                    // name={data.city_map.name}
-                                    // state={data.city_map.state}
-                                    />
-
-                                    <CityPageWeather data={data.weather} />
-                                    {data.travel[0][' Major Airports :'] ?
-                                          <CityPageTravel data={data.travel} /> : ""
-                                    }
-
-                              </div>
+                  <div className="row city-page-content-map">
+                        <div className="col-11 col-sm-6 col-md-7 col-lg-8 mt-5">
+                              <CityPageContent content={data.content} />
 
                         </div>
 
-                        <div>
-                              <CityPageExperience data={data.experiences} />
-                        </div>
+                        <div className="col-11 col-sm-5 col-md-4 col-lg-3 city-page-map">
+                              <LeafletMap
+                                    latitude={data.city_map.position.lat}
+                                    longitute={data.city_map.position.lng}
+                                    description=""
+                                    imageUrl=""
+                                    name={data.city_map.points[0].title}
+                                    state=""
+                              // description={data.city_map.description}
+                              // imageUrl={data.city_map.image}
+                              // name={data.city_map.name}
+                              // state={data.city_map.state}
+                              />
 
-                        <div className="city_page_attractions">
-                              <Attractions data={data.nearby} />
-                        </div>
+                              <CityPageWeather data={data.weather} />
+                              {data.travel[0][' Major Airports :'] ?
+                                    <CityPageTravel data={data.travel} /> : ""
+                              }
 
-                        <div>
-                              <Footer />
                         </div>
 
                   </div>
-            )
-      }
+
+                  <div>
+                        {data.experiences.length > 0 ?
+                              <CityPageExperience data={data.experiences} />
+                              : ""
+                        }
+                  </div>
+
+                  <div className="city_page_attractions">
+                        <Attractions data={data.nearby} />
+                  </div>
+
+                  <div>
+                        <Footer />
+                  </div>
+
+            </div>
+      )
 }
 
 export default CityPage

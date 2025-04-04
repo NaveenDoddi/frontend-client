@@ -8,7 +8,6 @@ function MapSection() {
       const [place, setPlace] = useState(data.mapdata[1])
 
       const locateOnMap = (item) => {
-
             setPlace(item)
       }
       return (
@@ -16,7 +15,7 @@ function MapSection() {
             <div className="mapSection">
                   <div className="p-4">
                         <h1 style={{color:'#FE6900'}}>Temple Tales</h1>
-                        <p style={{color:"#A0522D"}} className="mb-4">Explore the Rich Heritage of India's Shrines</p>
+                        <p style={{color:"#A0522D"}} className="mb-4">─── Explore the Rich Heritage of India's Shrines ───</p>
                   </div>
                   <div className="row">
                         <div className="col-12 col-sm-8">

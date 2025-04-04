@@ -54,8 +54,8 @@ const Attractions = (props) => {
                         <Slider {...settings}>
                               {props.data.map((i, index) =>
 
-                                    <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
-                                          <div className="inc-attractions-card" key={index}>
+                                    <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline"  key={index}>
+                                          <div className="inc-attractions-card">
                                                 <div className="inc-attractions-image-container">
                                                       <img src={i['image']} alt="" loading='lazy' />
                                                       <div className="inc-attractions-heading">
@@ -65,9 +65,8 @@ const Attractions = (props) => {
 
                                           </div>
                                     </Link>
-
                               )}
-
+                              
                         </Slider>
                   </div>
                   <div className="text-center m-4">

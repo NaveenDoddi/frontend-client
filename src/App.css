@@ -151,7 +151,6 @@ body {
     }
 
     .mapSection .placeCard {
-
         width: 100%;
         padding: 5px;
         margin-right: 10px;
@@ -160,10 +159,9 @@ body {
     }
 
     .mapSection .placeCard img {
-        width: 55vw;
-        height: 30vh;
+        width: 300px;
+        height: 180px;
     }
-
 
     #map {
         height: 60vh;
@@ -173,16 +171,31 @@ body {
 }
 
 /* For medium screens (md) and large screen (lg) */
+
 @media (min-width: 576px) {
+
+    .city-page-content-map {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .city-page-content-map {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 
     .placeCardContainer {
         height: 80vh;
         overflow: auto;
-        scroll-behavior: smooth
+        scroll-behavior: smooth;
     }
 
     .mapSection .placeCard {
         padding: 5px;
+        padding-right: 10px;
         margin-top: 10px;
         cursor: pointer;
     }
@@ -544,15 +557,7 @@ body {
     display: flex;
     justify-content: center;
 }
-
-@media (max-width: 576px) {
-    .city-page-content-map {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-}
+/*  */
 
 .city_page_weather span {
     font-weight: bold;

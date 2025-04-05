@@ -31,7 +31,7 @@ function Home() {
                   
                   <MapSection />
 
-                  <HomePageINC />
+                  {/* <HomePageINC /> */}
                   
                   <Footer />
 

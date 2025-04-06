@@ -13,11 +13,14 @@ import CityPageTravel from "./city_page_travel";
 import Attractions from "./attractions";
 import CityPageExperience from "./city_page_experience";
 import Footer from "../footer/footer";
+import CityHiddenPageContent from "./city_page_hidden_content";
 // const SERVER_URL = process.env.SERVER;
 function CityPage() {
       const [loading, setLoading] = useState(true);
       const [err, setError] = useState('');
       const [data, setData] = useState(null);
+
+      const [readMore, setReadMore] = useState(false)
 
       const location = useLocation();
       const url = location.search.substring(1);
@@ -26,6 +29,10 @@ function CityPage() {
             window.scrollTo(0, 0); // Scroll to top when URL changes
       }, [location.search]);
 
+      const showMore = (bool) => {
+            setReadMore(bool)
+            console.log(readMore)
+      }
 
       useEffect(() => {
             const fetchData = async () => {
@@ -62,8 +69,6 @@ function CityPage() {
 
                   <div className="row city-page-content-map">
 
-
-
                         <div className="col-11 col-sm-5 col-md-4 col-lg-3 city-page-map">
                               <LeafletMap
                                     latitude={data.city_map.position.lat}
@@ -80,12 +85,17 @@ function CityPage() {
                               }
                         </div>
                         <div className="col-11 col-sm-6 col-md-7 col-lg-8 mt-5">
-                              <CityPageContent content={data.content} />
+                              <CityPageContent content={data.content} showMoreBtn={showMore} hiddenContent = { data.hiddenContent } />
 
                         </div>
-
                   </div>
 
+                  {/* <div>
+                        {
+                              readMore ? <CityHiddenPageContent content = { data.hiddenContent } />
+                                    : ""
+                        }
+                  </div> */}
                   <div>
                         {data.experiences.length > 0 ?
                               <CityPageExperience data={data.experiences} />

@@ -581,6 +581,10 @@ body {
     background: none;
 }
 
+.hidden_content_image {
+    max-height: 300px;
+}
+
 .footer {
     background: url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/footer-background-image.jpg');
     background-size: cover;

@@ -25,6 +25,7 @@ function CityPageWeather(props) {
                               <Carousel className='carousel'
                                     controls={true}
                                     indicators={false}
+                                    data-bs-theme="dark"
                               >
                                     {props.data.map((i) =>
                                           <Carousel.Item>

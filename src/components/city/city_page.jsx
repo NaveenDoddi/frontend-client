@@ -49,7 +49,7 @@ function CityPage() {
       }, [url]);
 
       if (loading) return <Loading />
-      if (err) return <ErrorPage err = {err}/>
+      if (err) return <ErrorPage err={err} />
       return (
             <div className="city_page">
                   <div>
@@ -61,10 +61,8 @@ function CityPage() {
                   </div>
 
                   <div className="row city-page-content-map">
-                        <div className="col-11 col-sm-6 col-md-7 col-lg-8 mt-5">
-                              <CityPageContent content={data.content} />
 
-                        </div>
+
 
                         <div className="col-11 col-sm-5 col-md-4 col-lg-3 city-page-map">
                               <LeafletMap
@@ -74,16 +72,15 @@ function CityPage() {
                                     imageUrl=""
                                     name={data.city_map.points[0].title}
                                     state=""
-                              // description={data.city_map.description}
-                              // imageUrl={data.city_map.image}
-                              // name={data.city_map.name}
-                              // state={data.city_map.state}
                               />
 
                               <CityPageWeather data={data.weather} />
                               {data.travel[0][' Major Airports :'] ?
                                     <CityPageTravel data={data.travel} /> : ""
                               }
+                        </div>
+                        <div className="col-11 col-sm-6 col-md-7 col-lg-8 mt-5">
+                              <CityPageContent content={data.content} />
 
                         </div>
 

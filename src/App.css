@@ -175,16 +175,7 @@ body {
 @media (min-width: 576px) {
 
     .city-page-content-map {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .city-page-content-map {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row-reverse;
     }
 
     .placeCardContainer {

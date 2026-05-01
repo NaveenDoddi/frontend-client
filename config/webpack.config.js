@@ -302,11 +302,12 @@ module.exports = function (webpackEnv) {
         "buffer": require.resolve("buffer/"),
         "stream": require.resolve("stream-browserify"),
         "path": require.resolve("path-browserify"),
-        "fs": false, // fs is not needed in the browser
-        "async_hooks": false, // async_hooks is not needed in the browser
+        "fs": false,
+        "async_hooks": false,
         "assert": require.resolve("assert/"),
         "util": require.resolve("util/"),
       },
+
       // This allows you to set a fallback for where webpack should look for modules.
       // We placed these paths second because we want `node_modules` to "win"
       // if there are any conflicts. This matches Node resolution mechanism.
@@ -458,12 +459,10 @@ module.exports = function (webpackEnv) {
                 babelrc: false,
                 configFile: false,
                 compact: false,
-                presets: [
-                  [
-                    require.resolve('babel-preset-react-app/dependencies'),
-                    { helpers: true },
-                  ],
-                ],
+                presets: 
+                {
+                  "presets": ["@babel/preset-env", "@babel/preset-react"]
+                },                
                 cacheDirectory: true,
                 // See #6846 for context on why cacheCompression is disabled
                 cacheCompression: false,

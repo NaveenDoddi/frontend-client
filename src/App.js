@@ -4,7 +4,6 @@ import "leaflet/dist/leaflet.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from './components/home';
-import Signup from './components/signup';
 import CityPage from "./components/city_page"
 
 function App() {

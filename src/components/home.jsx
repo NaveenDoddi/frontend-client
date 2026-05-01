@@ -14,18 +14,18 @@ import CityPage from "./city_page"
 import IncredibleIndiaAttractions from "./home_page_scraper"
 function Home() {
       return (
-            <>
+            <div>
                   <Header />
                   <Landing />
                   <HomePageMonth />
                   <MapSection />
 
-                  <IncredibleIndiaAttractions />
+                  {/* <IncredibleIndiaAttractions /> */}
                   
                   {/* <LandVedio /> 
                   <Filter /> */}
 
-            </>
+            </div>
       )
 }
 

@@ -8,6 +8,8 @@ import CityPageTravel from "./city_page_travel";
 import Attractions from "./attractions";
 import CityPageExperience from "./city_page_experience";
 
+import loader from "sass-loader";
+
 function CityPage() {
       const data = {
             name: ['Taj Mahal', 'Uttar Pradesh'],
@@ -159,6 +161,7 @@ function CityPage() {
       return (
 
             <div className="city_page">
+
                   <div>
                         <CityPageBanner names={data.name} images={data.images} />
                   </div>
@@ -178,7 +181,7 @@ function CityPage() {
                                     name={data.map.name}
                                     state={data.map.state}
                               />
-
+                              
                               <CityPageWeather data = {data.weather}/>
                               <CityPageTravel data = {data.travel}/>
                         </div>

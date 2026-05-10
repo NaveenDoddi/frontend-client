@@ -13,7 +13,7 @@ import CityPageTravel from "./city_page_travel";
 import Attractions from "./attractions";
 import CityPageExperience from "./city_page_experience";
 import Footer from "../footer/footer";
-import CityHiddenPageContent from "./city_page_hidden_content";
+// import CityHiddenPageContent from "./city_page_hidden_content";
 // const SERVER_URL = process.env.SERVER;
 function CityPage() {
       const [loading, setLoading] = useState(true);
@@ -47,7 +47,6 @@ function CityPage() {
                         console.error("Error fetching data:", error);
                         setLoading(false);
                         setError(error.message);
-                        console.log(err)
                   }
             };
 

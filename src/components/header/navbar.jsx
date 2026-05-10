@@ -7,7 +7,6 @@ import { TbWorld } from 'react-icons/tb';
 
 import { useState, useEffect } from 'react';
 import SearchBar from './search';
-import { BiSearch } from 'react-icons/bi';
 
 function Header() {
 

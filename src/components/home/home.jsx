@@ -1,7 +1,6 @@
 
 import React from "react"
 import Header from "../header/navbar"
-import Landing from './landingPage'
 
 
 import LandVedio from "./landing2"

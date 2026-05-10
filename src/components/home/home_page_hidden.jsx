@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import { FaLocationDot } from "react-icons/fa6";
 
@@ -35,7 +35,7 @@ const HomePageHidden = (props) => {
             ],
       };
 
-      const navigate = useNavigate();
+      // const navigate = useNavigate();
 
       return (
             <div className="inc-hidden-gems-main">

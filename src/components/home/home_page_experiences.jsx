@@ -53,8 +53,8 @@ function HomePageExperience(props) {
                               {props.data.map((i, index) =>
                                     <Link to={`/city_page?${i['URL'].split('en/')[1]}`} className="no-underline">
 
-                                          <div className="inc-crafts-card" key={index}>
-                                                <Card key={index} className="inc-crafts-image-container">
+                                          <div className="inc-crafts-card">
+                                                <Card className="inc-crafts-image-container">
                                                       <Card.Img variant="top" src={i['image']} />
                                                       <Card.Body style={{ height: "9rem" }}>
                                                             <Card.Text>
